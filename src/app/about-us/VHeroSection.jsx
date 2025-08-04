@@ -25,8 +25,7 @@ className="relative w-full h-[300px] sm:h-[300px] md:h-[3500px] lg:h-[400px] xl:
       {/* Overlay Text Content */}
       <div className="absolute inset-x-0 bottom-4 md:bottom-10 text-center px-4 text-white z-20">
         <h1 className="text-lg sm:text-xl md:text-4xl lg:text-5xl font-penrise -tracking-normal">
-          ATTENTION TO DETAILS
-        </h1>
+          ATTENTION TO DETAIL </h1>
         <p className="text-[10px] sm:text-lg md:text-2xl md:mt-2 font-play tracking-wider">
           DESIGN & CRAFTING LUXURY SPACES IN DUBAI
         </p>
