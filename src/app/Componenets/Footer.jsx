@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="md:col-span-2 space-y-4">
           <Image src="/images/logo-1.png" alt="Buzz Digital Logo" width={150} height={40} />
           <p className="text-gray-400">
-            Transforming Ideas into Dining Excellence. Elevate your Dining space with our luxury solutions and high end luxury services.
+            Transforming Ideas into Dining Excellence at Dice Hospitality. Elevate your Dining space with our luxury solutions and high end luxury services.
           </p>
           <ul className="space-y-1">
             <li className="flex items-center gap-2">
