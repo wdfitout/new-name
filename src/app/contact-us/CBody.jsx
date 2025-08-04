@@ -118,9 +118,9 @@ const CBody = () => {
         </div>
 
         {/* Right Side Image */}
-        <div className="hidden md:block w-full max-h-[600px] overflow-hidden flex items-center py-12 pr-4">
+        <div className="hidden md:block w-full max-h-[600px] overflow-hidden flex items-center">
           <Image
-            src="/images/C.jpg"
+            src="/images/C-1.avif"
             alt="Contact Visual"
             width={1000}
             height={1000}

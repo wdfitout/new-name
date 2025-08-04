@@ -1,10 +1,10 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
+  title: 'Restaurant Hospitality Dubai | Luxury F&B Services | Dice Hospitality',
   description:
-    'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
-  metadataBase: new URL('https://wedointerior.ae/'), // ✅ Fixed: no trailing slash
+    'Explore expert restaurant design tips, trends, and project inspirations from Dubai and around the world.',
+  metadataBase: new URL('https://dicehospitality.ae/'), // ✅ Fixed: no trailing slash
   openGraph: {
     title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
     description:
@@ -29,7 +29,7 @@ export const metadata = {
     images: ['https://wedointerior.ae/images/logo.svg'], // ✅ Absolute URL
   },
   alternates: {
-    canonical: 'https://wedointerior.ae/', // ✅ Correct relative path (resolves with metadataBase)
+    canonical: 'https://dicehospitality.ae/', // ✅ Correct relative path (resolves with metadataBase)
   },
 };
 

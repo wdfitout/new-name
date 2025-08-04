@@ -1,10 +1,10 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "About Us | We Do Interior Design & Fit Out",
+  title: "About Us | Dice Hospitality",
   description:
-    "Best interior design company in Dubai. We Do Interior Design. We are offering professional services of Interior Design and fitout. Contact us today!",
-  metadataBase: new URL('https://wedointerior.ae/'),
+    "Best restaurant hospitality company in Dubai. We are offering professional services of F&B and restaurant services. Contact us today!",
+  metadataBase: new URL('https://dicehospitality.ae/'),
   alternates: {
     canonical: '/about-us',
   },
