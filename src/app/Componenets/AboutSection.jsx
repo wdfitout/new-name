@@ -85,12 +85,9 @@ export default function AboutSection() {
               <p className="text-sm">
                 Smart Designs, Sharp Results – Choose Buzz Digital Agency for Digital Excellence. At Buzz Digital Agency, we deliver more than just marketing solutions. We create value through innovation, data-driven strategies, and standout content that speaks directly to your target market.
               </p>
-              <p className="text-sm">
-                Smart Designs, Sharp Results – Choose Buzz Digital Agency for Digital Excellence. At Buzz Digital Agency, we deliver more than just marketing solutions. We create value through innovation, data-driven strategies, and standout content that speaks directly to your target market.
-              </p>
               <Link href="/about-us" passHref>
                 <button className="mt-4 bg-[#7D090F] px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">
-                  ABOUT US - Y Not
+                  ABOUT US
                 </button>
               </Link>
             </motion.div>
