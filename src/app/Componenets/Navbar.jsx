@@ -32,7 +32,7 @@ const navItems = [
   },
   { title: "Case Studies", path: "/" },
   { title: "Blog", path: "/" },
-  { title: "Contact Us", path: "/" },
+  { title: "Contact Us", path: "/contact-us" },
 ];
 
 export default function Navbar() {

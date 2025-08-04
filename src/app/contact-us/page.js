@@ -2,7 +2,7 @@ import Navbar from "../Componenets/Navbar";
 import CallButton from "../Componenets/CallButton";
 import WhatsAppButton from "../Componenets/WhatsAppButton";
 import VHeroSection from "./VHeroSection"
-import ContactForm from "../Componenets/ContactForm";
+import CBody from "./CBody";
 import Footer from "../Componenets/Footer";
 
 
@@ -20,7 +20,7 @@ export default function ProjectsPage() {
       <WhatsAppButton />
 
     <div className="bg-[#f5ede5]">
-      <ContactForm />
+      <CBody />
     </div>
 
       {/* Footer Section */}

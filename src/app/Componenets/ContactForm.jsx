@@ -59,13 +59,7 @@ const ContactForm = () => {
     >
       {/* Section Title */}
       <div className="flex flex-col items-center mb-10">
-        <Image
-          src="/images/sec-dvd.webp"
-          alt="Divider"
-          width={320}
-          height={80}
-          className="h-auto w-48 sm:w-64"
-        />
+     
         <h2 className="mt-10 mb-6 text-sm sm:text-xl tracking-widest font-conthrax text-center">
           CONTACT US
         </h2>
