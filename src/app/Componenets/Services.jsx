@@ -131,7 +131,7 @@ export default function Services() {
               Experience the magic of Buzz Digital Agency. Contact us to discuss your project.
             </h3>
             <p className="mb-6">
-              At Buzz Digital Agency, we combine expert strategy with cutting-edge technology to deliver outstanding results. Our dedicated team excels in every facet of digital marketing.
+              At Dice Hospitality, we combine expert strategy with cutting-edge technology to deliver outstanding results. Our dedicated team excels in every facet of F&B.
             </p>
             <button className="bg-[#7D090F] text-white px-6 py-3 rounded-full font-semibold">
               Get Started
