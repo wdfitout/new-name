@@ -6,30 +6,30 @@ export const metadata = {
     'Explore expert restaurant design tips, trends, and project inspirations from Dubai and around the world.',
   metadataBase: new URL('https://dicehospitality.ae/'), // ✅ Fixed: no trailing slash
   openGraph: {
-    title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
+    title: 'Restaurant Hospitality Dubai | Luxury F&B Services | Dice Hospitality',
     description:
-      'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
-    url: 'https://wedointerior.ae/',
-    siteName: 'we do interior design',
+      'Explore expert restaurant design tips, trends, and project inspirations from Dubai and around the world.',
+    url: 'https://dicehospitality.ae/',
+    siteName: 'dice hospitality',
     images: [
       {
-        url: 'https://wedointerior.ae/images/logo.svg', // ✅ Absolute URL
+        url: 'https://dicehospitality.ae/images/logo.svg', // ✅ Absolute URL
         width: 1200,
         height: 630,
-        alt: 'Interior Blog Banner',
+        alt: 'Dice Hospitality Banner',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Interior Design Dubai | Luxury Designers | We Do Interior',
+    title: 'Restaurant Hospitality Dubai | Luxury F&B Services | Dice Hospitality',
     description:
-      'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
-    images: ['https://wedointerior.ae/images/logo.svg'], // ✅ Absolute URL
+      'Explore expert restaurant design tips, trends, and project inspirations from Dubai and around the world.',
+    images: ['https://dicehospitality.ae/images/logo.svg'],
   },
   alternates: {
-    canonical: 'https://dicehospitality.ae/', // ✅ Correct relative path (resolves with metadataBase)
+    canonical: 'https://dicehospitality.ae/',
   },
 };
 
@@ -37,8 +37,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-         {/* ✅ Manual Canonical Override (Backup Fix) */}
-        <link rel="canonical" href="https://wedointerior.ae/" />
+        {/* ✅ Manual Canonical Override (Backup Fix) */}
+        <link rel="canonical" href="https://dicehospitality.ae/" />
+
         {/* Robots Meta Tag */}
         <meta
           name="robots"
@@ -52,11 +53,11 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'we do interior design & fit out',
-              url: 'https://wedointerior.ae/',
+              name: 'dice hospitality',
+              url: 'https://dicehospitality.ae/',
               logo: {
                 '@type': 'ImageObject',
-                url: 'https://wedointerior.ae/images/logo.svg',
+                url: 'https://dicehospitality.ae/images/logo.svg',
                 width: 600,
                 height: 60,
               },
@@ -75,10 +76,10 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebPage',
-              name: 'we do interior design & fit out',
-              url: 'https://wedointerior.ae/',
+              name: 'dice hospitality',
+              url: 'https://dicehospitality.ae/',
               description:
-                'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
+                'Explore expert restaurant design tips, trends, and project inspirations from Dubai and around the world.',
             }),
           }}
         />
@@ -90,28 +91,28 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'BlogPosting',
-              headline: 'Modern Interior Design in Dubai',
+              headline: 'Modern Restaurant Hospitality in Dubai',
               description:
-                'Explore expert interior design tips, trends, and project inspirations from Dubai and around the world.',
-              url: 'https://wedointerior.ae/',
+                'Explore expert restaurant design tips, trends, and project inspirations from Dubai and around the world.',
+              url: 'https://dicehospitality.ae/',
               author: {
                 '@type': 'Organization',
-                name: 'we do interior design',
+                name: 'dice hospitality',
               },
               publisher: {
                 '@type': 'Organization',
-                name: 'we do interior design',
+                name: 'dice hospitality',
                 logo: {
                   '@type': 'ImageObject',
-                  url: 'https://wedointerior.ae/images/logo.svg',
+                  url: 'https://dicehospitality.ae/images/logo.svg',
                   width: 600,
                   height: 60,
                 },
               },
-              mainEntityOfPage: 'https://wedointerior.ae/',
+              mainEntityOfPage: 'https://dicehospitality.ae/',
               image: {
                 '@type': 'ImageObject',
-                url: 'https://wedointerior.ae/images/logo.svg',
+                url: 'https://dicehospitality.ae/images/logo.svg',
                 width: 1200,
                 height: 630,
               },
@@ -132,31 +133,31 @@ export default function RootLayout({ children }) {
                   '@type': 'SiteNavigationElement',
                   position: 1,
                   name: 'About Us',
-                  url: 'https://wedointerior.ae/about-us',
+                  url: 'https://dicehospitality.ae/about-us',
                 },
                 {
                   '@type': 'SiteNavigationElement',
                   position: 2,
-                  name: 'Apartment Interior Design Dubai',
-                  url: 'https://wedointerior.ae/apartment-interior-design-dubai',
+                  name: 'Restaurant Design',
+                  url: 'https://dicehospitality.ae/restaurant-design',
                 },
                 {
                   '@type': 'SiteNavigationElement',
                   position: 3,
-                  name: 'Villa Interior Design Dubai',
-                  url: 'https://wedointerior.ae/villa-interior-design-dubai',
+                  name: 'Kitchen Fit-Out',
+                  url: 'https://dicehospitality.ae/kitchen-fit-out',
                 },
                 {
                   '@type': 'SiteNavigationElement',
                   position: 4,
                   name: 'Gallery',
-                  url: 'https://wedointerior.ae/projects',
+                  url: 'https://dicehospitality.ae/projects',
                 },
                 {
                   '@type': 'SiteNavigationElement',
                   position: 5,
                   name: 'Contact Us',
-                  url: 'https://wedointerior.ae/contact-us',
+                  url: 'https://dicehospitality.ae/contact-us',
                 },
               ],
             }),
@@ -175,7 +176,7 @@ export default function RootLayout({ children }) {
                   '@type': 'ListItem',
                   position: 1,
                   name: 'Home',
-                  item: 'https://wedointerior.ae/',
+                  item: 'https://dicehospitality.ae/',
                 },
               ],
             }),
@@ -189,17 +190,17 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Service',
-              serviceType: 'Interior Design and Fit Out',
+              serviceType: 'Restaurant Hospitality and Fit Out',
               provider: {
                 '@type': 'Organization',
-                name: 'we do interior design',
-                url: 'https://wedointerior.ae',
+                name: 'dice hospitality',
+                url: 'https://dicehospitality.ae',
               },
               areaServed: {
                 '@type': 'Place',
                 name: 'Dubai, UAE',
               },
-              url: 'https://wedointerior.ae/',
+              url: 'https://dicehospitality.ae/',
             }),
           }}
         />
