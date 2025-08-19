@@ -52,14 +52,14 @@ const testimonials = [
   }
 ];
 
-const Testimonials = () => {
+const CaseStudy = () => {
   return (
-    <section id="testimonials" className="bg-[#f6f1eb] text-black">
+    <section id="testimonials" className="bg-white text-black">
       <div className="w-[90%] sm:w-[85%] md:w-[80%] lg:w-[70%] mx-auto">
         <div className="flex flex-col items-center mb-10">
       
           <h2 className="mt-10 mb-10 text-sm sm:text-xl tracking-widest font-conthrax text-center">
-            TESTIMONIALS
+            CASE STUDY
           </h2>
         </div>
 
@@ -77,7 +77,7 @@ const Testimonials = () => {
         >
           {testimonials.map((item, idx) => (
             <SwiperSlide key={idx}>
-              <div className="flex flex-col justify-between h-full bg- text-sm p-4 rounded-xl">
+              <div className="flex flex-col justify-between h-full bg-[#eae5e1] text-sm p-4 rounded-xl">
                 <div className="relative p-4 flex flex-col flex-grow border border-[#7D090F] rounded-xl">
                   <p className="leading-relaxed">“{item.message}”</p>
                 </div>
@@ -108,4 +108,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default CaseStudy;

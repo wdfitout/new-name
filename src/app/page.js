@@ -4,6 +4,9 @@ import WhatsAppButton from "./Componenets/WhatsAppButton";
 import HeroSection from "./Componenets/HeroSection";
 import AboutSection from "./Componenets/AboutSection";
 import Services from "./Componenets/Services";
+import PostOpr from "./Componenets/PostOpr";
+import CaseStudy from "./Componenets/CaseStudy";
+import Testimonials from "./Componenets/Testimonials";
 import Footer from "./Componenets/Footer";
 
 
@@ -18,7 +21,9 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <Services />
-        
+        <PostOpr />
+        <CaseStudy />
+        <Testimonials />
           <Footer />
          
 
