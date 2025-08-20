@@ -31,8 +31,8 @@ const navItems = [
       { title: "Accounts & Cost Control", path: "/" },
     ],
   },
-  { title: "Case Studies", path: "/" },
-  { title: "Blog", path: "/" },
+  { title: "Our Clients", path: "/" },
+  
   { title: "Contact Us", path: "/contact-us" },
 ];
 
