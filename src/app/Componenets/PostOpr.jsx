@@ -7,25 +7,25 @@ import Link from "next/link";
 const cardData = [
   {
     title: "OPERATION MANAGEMENT",
-    img: "/images/B (9).jpg",
+    img: "/images/opertaion-mgmt.png",
     desc: "Luxury villa interior design in Dubai tailored to your lifestyle by experts at WE DO interior design and fitout.",
     link: "/villa-interior-design-dubai",
   },
   {
     title: "HR MANAGEMENT",
-    img: "/images/B (9).jpg",
+    img: "/images/hr-mgmt.png",
     desc: "Smart, elegant, and space-optimized apartment interior design and fit-out crafted for modern Dubai living.",
     link: "/apartment-interior-design-dubai",
   },
   {
     title: "ACCOUNTS & COST CONTROL",
-    img: "/images/B (9).jpg",
+    img: "/images/accounts.png",
     desc: "Premier landscape company in Dubai offering bespoke landscape design in Dubai for villas, gardens, and outdoor spaces.",
     link: "/landscape-design-dubai",
   },
   {
     title: "IT SUPPORT",
-    img: "/images/B (9).jpg",
+    img: "/images/it.png",
     desc: "Customized restaurant interior design services in Dubai, crafting unique dining atmospheres. Experts in restaurants & café interior design.",
     link: "/restaurant-interior-design",
   },

@@ -15,7 +15,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="bg-white text-white py-16 px-4 md:px-8">
+    <section className="bg-[#F6F1EB] text-white py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto space-y-24">
         {/* Hero Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -39,7 +39,7 @@ export default function AboutSection() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.3 }}
           >
-            <div className="text-black bg-[#f5f5f7] py-6 px-6 rounded-2xl">
+            <div className="text-black bg-[#f5f5f7] py-6 px-6 rounded-2xl shadow-md">
               <h2 className="text-2xl font-semibold leading-tight mb-4">
                 Unleash Your Potential in the Digital Realm with Buzz Digital Agency.
               </h2>
