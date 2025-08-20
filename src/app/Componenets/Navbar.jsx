@@ -9,6 +9,7 @@ const navItems = [
   { title: "About Us", path: "/about-us" },
   {
     title: "Services",
+  path: "#services",
     subItems: [
       { title: "Concept Development", path: "/" },
       { title: "Financial Feasibility", path: "/" },

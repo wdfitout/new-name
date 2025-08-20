@@ -95,7 +95,9 @@ export default function Services() {
   ];
 
   return (
-    <section className="bg-white text-black py-20 px-4 md:px-8">
+    <section 
+    id="services"
+    className="bg-white text-black py-20 px-4 md:px-8">
       <div className="max-w-7xl mx-auto space-y-16">
         {/* Header */}
         <div className="text-center">

@@ -6,25 +6,25 @@ import Link from "next/link";
 
 const cardData = [
   {
-    title: "VILLA INTERIOR DESIGN",
+    title: "OPERATION MANAGEMENT",
     img: "/images/B (9).jpg",
     desc: "Luxury villa interior design in Dubai tailored to your lifestyle by experts at WE DO interior design and fitout.",
     link: "/villa-interior-design-dubai",
   },
   {
-    title: "APARTMENT INTERIOR DESIGN",
+    title: "HR MANAGEMENT",
     img: "/images/B (9).jpg",
     desc: "Smart, elegant, and space-optimized apartment interior design and fit-out crafted for modern Dubai living.",
     link: "/apartment-interior-design-dubai",
   },
   {
-    title: "LANDSCAPE DESIGN",
+    title: "ACCOUNTS & COST CONTROL",
     img: "/images/B (9).jpg",
     desc: "Premier landscape company in Dubai offering bespoke landscape design in Dubai for villas, gardens, and outdoor spaces.",
     link: "/landscape-design-dubai",
   },
   {
-    title: "RESTAURANT INTERIOR DESIGN",
+    title: "IT SUPPORT",
     img: "/images/B (9).jpg",
     desc: "Customized restaurant interior design services in Dubai, crafting unique dining atmospheres. Experts in restaurants & café interior design.",
     link: "/restaurant-interior-design",
@@ -44,7 +44,7 @@ const PostOpr = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section Heading */}
-        <h2 className="mt-6 md:mt-10 mb-10 text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
+        <h2 className="mt-6 md:mt-10 mb-10 font-semibold text-[12px] sm:text-xl tracking-widest font-conthrax text-center">
           POST-OPENING OPERATIONS MANAGEMENT
         </h2>
 
@@ -54,7 +54,7 @@ const PostOpr = () => {
             <Link href={card.link} key={index}>
               <div className="text-left group cursor-pointer">
                 {/* Title */}
-                <h3 className="text-[12px] md:text-sm font-conthrax uppercase tracking-wide mb-2">
+                <h3 className="text-[12px] md:text-sm font-semibold uppercase tracking-wide mb-2">
                   {card.title}
                 </h3>
 
