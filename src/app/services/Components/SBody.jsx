@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const projects = [
   {
-    href: "home-interior-design-dubai/luxury-apartment-interior-design-in-palm-jumeirah",
+    href: "concept-development-menu-design",
     src: "/images/luxury-apartment-design-dubai-marina.jpg",
     alt: "Luxury Apartment Interior Palm Jumeirah",
     title: "LUXURY APARTMENT DESIGN PALM IN JUMEIRAH DUBAI",
@@ -84,7 +84,7 @@ const projects = [
   }
 ];
 
-const ResidentialProjects = () => {
+const SBody = () => {
   return (
     <section id="projects" className="projects w-full mt-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -117,4 +117,4 @@ const ResidentialProjects = () => {
   );
 };
 
-export default ResidentialProjects;
+export default SBody;

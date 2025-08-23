@@ -11,7 +11,7 @@ const navItems = [
     title: "Services",
   path: "#services",
     subItems: [
-      { title: "Concept Development", path: "/" },
+      { title: "Concept Development", path: "/concept-development-menu-design" },
       { title: "Financial Feasibility", path: "/" },
       { title: "Location Assessment", path: "/" },
       { title: "Interior Design", path: "/" },

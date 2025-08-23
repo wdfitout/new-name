@@ -3,7 +3,7 @@ import Navbar from "../Componenets/Navbar"; // Fixed "Componenets" typo
 import WhatsAppButton from "../Componenets/WhatsAppButton";
 import CallButton from "../Componenets/CallButton";
 import Hero from "./Components/Hero";
-import ResidentialProjects from "./Components/ResidentialProjects";
+import SBody from "./Components/SBody";
 import Footer from "../Componenets/Footer";
 
 export default function Home() { // Capitalized "home" → "Home"
@@ -15,7 +15,7 @@ export default function Home() { // Capitalized "home" → "Home"
         <WhatsAppButton />
         <CallButton />
         <Hero />
-        <ResidentialProjects />
+        <SBody />
         <Footer />
       </div>
     </>

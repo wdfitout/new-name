@@ -40,10 +40,10 @@ export default function AboutSection() {
             viewport={{ once: true, amount: 0.3 }}
           >
             <div className="text-black bg-[#f5f5f7] py-6 px-6 rounded-2xl shadow-md">
-              <h2 className="text-2xl font-semibold leading-tight mb-4">
+              <h2 className="text-2xl font-bold leading-tight mb-4">
                 Unleash Your Potential in the Digital Realm with Buzz Digital Agency.
               </h2>
-              <p className="mb-3 text-lg">
+              <p className="mb-3 text-lg font-">
                 Welcome to Buzz Digital Agency, where your business growth is powered by precision and creativity. As a premier B2B marketing agency, we specialize in transformative digital strategies.
               </p>
               <p className="mb-3 text-lg">
