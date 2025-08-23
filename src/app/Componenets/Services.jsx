@@ -17,7 +17,7 @@ export default function Services() {
     },
     {
       title: "Financial Feasibility & Investment Analysis",
-      slug: "interior-design",
+      slug: "financial-feasibility-investment-analysis",
       description:
         "Creative and functional interior designs for hospitality projects.",
       bgImage: "/images/financial.png",
@@ -25,7 +25,7 @@ export default function Services() {
     },
     {
       title: "Location Assessment",
-      slug: "menu-engineering",
+      slug: "location-assessment",
       description:
         "Strategic menu engineering that improves sales mix and profitability.",
       bgImage: "/images/location.png",
@@ -33,7 +33,7 @@ export default function Services() {
     },
     {
       title: "Interior Design",
-      slug: "research-forward",
+      slug: "interior-design",
       description:
         "Market researches and feasibility plans for your F&B business.",
       bgImage: "/images/interior-design.png",
@@ -41,7 +41,7 @@ export default function Services() {
     },
     {
       title: "Kitchen Design & Tender",
-      slug: "interior-design",
+      slug: "kitchen-design-tender",
       description:
         "Creative and functional interior designs for hospitality projects.",
       bgImage: "/images/kitchen.png",
@@ -57,7 +57,7 @@ export default function Services() {
     },
     {
       title: "HR Support",
-      slug: "research-forward",
+      slug: "hr-support",
       description:
         "Market researches and feasibility plans for your F&B business.",
       bgImage: "/images/hr.png",
@@ -65,7 +65,7 @@ export default function Services() {
     },
     {
       title: "OS & E Advice",
-      slug: "interior-design",
+      slug: "os-e-advice",
       description:
         "Creative and functional interior designs for hospitality projects.",
       bgImage: "/images/ose.png",
@@ -73,7 +73,7 @@ export default function Services() {
     },
     {
       title: "SOP’S & Staff Training",
-      slug: "menu-engineering",
+      slug: "sops-staff-training",
       description:
         "Strategic menu engineering that improves sales mix and profitability.",
       bgImage: "/images/sops.png",
