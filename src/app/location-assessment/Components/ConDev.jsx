@@ -8,7 +8,7 @@ export default function ConDev() {
       {/* ================= Title ================= */}
 <div className="max-w-7xl mx-auto px-4 md:px-8 pt-10 md:pt-16">
   <h1 className="text-3xl sm:text-4xl md:text-6xl font-serif text-center">
-    Restaurant Concept Development & Menu Design Services in Dubai
+Location Assessment Services in Dubai
   </h1>
 </div>
 
@@ -17,22 +17,13 @@ export default function ConDev() {
   {/* Text first */}
   <div className="max-w-2xl order-1">
     <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 sm:mb-6">
-      Concept
+      Introduction
     </h2>
     <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-      A perfectly successful restaurant starts with two key foundations: a
-      strong concept and a well-engineered menu. At Dice Hospitality, we are
-      professional restaurant consultants in Dubai, providing restaurant concept
-      development and menu design services in Dubai that turn concepts into
-      reality and maximize long-term profitability.
+      Selecting the correct location is the most critical factor in determining the success of a restaurant, café, or hospitality business's success in Dubai. The vibrant F&B market in Dubai is very competitive, and a wrong location choice can make even the best idea fail. Dice Hospitality provides restaurant location analysis in Dubai to restaurateurs and hoteliers and assists them in finding profitable locations that appeal to the right audience.
       <br />
       <br />
-      As top-rated hospitality consultants in Dubai, we know that every
-      successful F&amp;B business begins with a clear vision, solid research,
-      and a brand identity that speaks to its target audience. From the
-      restaurant concept creation in UAE to menu development and consultation,
-      our services address every aspect of opening, operating, and establishing
-      a restaurant in the UAE market.
+      With years of experience in hospitality consultancy across the UAE, we blend local knowledge, local expertise, and influential industry networks. Our connections with top developers provide our clients with an unparalleled edge in determining the optimal spaces for their companies.
     </p>
   </div>
 
@@ -61,23 +52,28 @@ export default function ConDev() {
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
           {/* Text first on mobile, right on desktop */}
-          <div className="order-1 md:order-2">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
-              Why Concept Development Matters?
-            </h2>
-            <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
-              In today's dynamic food and beverage world, an idea alone is not enough to succeed.
-              Our restaurant concept development Dubai offering turns your vision into a ready-to-launch
-              business model with informed research and planning behind it.<br /><br />
-              We study the UAE dining culture, review market research for restaurants UAE, and examine
-              competitors in order to find gaps and opportunities. This ensures your concept is aligned
-              with consumer demands, location-based needs, and current industry trends.<br /><br />
-              Our approach combines restaurant management consulting expertise with creative brand and
-              menu creation, ensuring your business is positioned for long-term success. Whether you’re
-              developing a high-end fine dining venue, casual café, or franchise-ready concept, our
-              restaurant consultancy services in Dubai provide a complete, sustainable solution.
-            </p>
-          </div>
+
+       <div className="order-1 md:order-2">
+  <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
+    Why Location Matters in Dubai’s Hospitality Industry?
+  </h2>
+
+  <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
+    If we talk about restaurants and hospitality, then Dubai is one of the fastest growing cities in the world, with a dining theme and culture that blends international as well as local trends. In such a competitive and dynamic market, it's very important to select the best location for restaurants in Dubai that can directly inspire, attract, and influence footfall and long-term profitability.
+  </p>
+
+  <p className="text-slate-900 font-semibold text-base sm:text-[17px] leading-7 md:leading-8 mt-4">
+    A prime location should have:
+  </p>
+
+  <ul className="list-disc pl-5 space-y-2 mt-2">
+    <li>Easy accessibility for target customers.</li>
+    <li>Higher visibility in busy districts.</li>
+    <li>Proximity to the right customer demographics.</li>
+    <li>Long-term sustainability in a competitive landscape.</li>
+  </ul>
+</div>
+
 
           {/* Two images */}
           <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -96,7 +92,12 @@ export default function ConDev() {
               </div>
             ))}
           </div>
+   
+
         </div>
+          <p className="text-slate-700 px-4 md:px-8 mt-6 text-base sm:text-[17px] leading-7 md:leading-8">
+             At Dice Hospitality, our Dubai restaurant market analysis indicated that the restaurants which are located in high end areas of Dubai like Dubai Marina,Downtown Dubai,Palm Jumeirah and Jumeirah Beach Residence (JBR) are more successful than those restaurants which are located in poor zones of Dubai. By combining market knowledge, tenacity and a deep understanding and research of UAE landscape, we help the emerging businesses in choosing the spaces that not align with their concept but also guarantee growth potential.
+              </p>
       </div>
 
       {/* ================= Process Section ================= */}
@@ -104,12 +105,10 @@ export default function ConDev() {
         {/* Text first */}
         <div className="max-w-2xl order-1">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 sm:mb-6">
-            Our Concept Development Process
+            Our Location Assessment Services
           </h2>
           <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-            The detailed process of concept development in restaurant hospitality by
-            DICE ensures every stage of your Restaurant project is carefully planned
-            and executed:
+            Our services go beyond simple recommendations — we provide a comprehensive location analysis in Dubai that covers every angle:
             <br /><br />
             <strong>Market Research &amp; Competitor Analysis – </strong>
             We conduct a deep Market Research for Restaurants in UAE including Dubai

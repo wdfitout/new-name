@@ -33,7 +33,7 @@ export default function Services() {
     },
     {
       title: "Interior Design",
-      slug: "interior-design",
+      slug: "restaurant-interior-design",
       description:
         "Market researches and feasibility plans for your F&B business.",
       bgImage: "/images/interior-design.png",

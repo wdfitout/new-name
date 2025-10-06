@@ -41,16 +41,19 @@ export default function AboutSection() {
           >
             <div className="text-black bg-[#f5f5f7] py-6 px-6 rounded-2xl shadow-md">
               <h2 className="text-2xl font-bold leading-tight mb-4">
-                Unleash Your Potential in the Digital Realm with Buzz Digital Agency.
+                Experience Culinary Excellence at Dice Hospitality.
               </h2>
               <p className="mb-3 text-lg font-">
-                Welcome to Buzz Digital Agency, where your business growth is powered by precision and creativity. As a premier B2B marketing agency, we specialize in transformative digital strategies.
+                Welcome to Dice Hospitality, where every meal is a celebration of flavor, ambiance, and hospitality. Our passion for exquisite dining and exceptional service creates an unforgettable experience for every guest.
               </p>
               <p className="mb-3 text-lg">
-                Founded on the pillars of innovation, expertise, and unwavering commitment, our team consists of seasoned marketers, strategic thinkers, and creative enthusiasts dedicated to elevating your brand.
+                Founded on the values of taste, creativity, and warm hospitality, our team of chefs, hosts, and culinary experts is dedicated to crafting moments that delight the senses and nourish the soul.
               </p>
               <p className="mb-6 text-lg">
-                Trust us to be the catalyst for your digital success. Let’s create something remarkable together.
+               oin us and indulge in a dining journey where every detail matters — from the ingredients we select to the atmosphere we create.
+               <br />
+               <br />
+               <strong>Savor the art of dining. Experience perfection with us.</strong>
               </p>
               <Link href="/about-us" passHref>
                 <button className="bg-[#7D090F] text-white px-6 py-3 rounded-full font-semibold cursor-pointer">

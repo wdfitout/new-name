@@ -8,7 +8,7 @@ export default function ConDev() {
       {/* ================= Title ================= */}
 <div className="max-w-7xl mx-auto px-4 md:px-8 pt-10 md:pt-16">
   <h1 className="text-3xl sm:text-4xl md:text-6xl font-serif text-center">
-    Restaurant SOP Implementation & Staff Training in Dubai, UAE
+    Accounts & Cost Control – DICE Hospitality
   </h1>
 </div>
 
@@ -16,12 +16,12 @@ export default function ConDev() {
 <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 sm:py-10 md:py-14 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
   {/* Text first */}
   <div className="max-w-2xl order-1">
-    
+   
     <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-    At WE Dice, we don’t just design restaurants — we help operators set up efficient systems that keep everything running smoothly. Through SOP implementation – Restaurant Staff Training, we create a complete Restaurant Operations Manual with SOPs, checklists, and training procedures that improve efficiency, compliance, and customer satisfaction.
+   At Dice Hospitality, we specialize in restaurant accounting and cost control services in Dubai, UAE, helping food and beverage businesses to achieve financial and operational efficiency. Our expert team provides customized solutions for cafes, restaurants and hotels while ensuring smooth operations and aligning with UAE regulations.
       <br />
       <br />
-      Our goal is to ensure your team understands daily restaurant operations, food safety, hygiene, and service excellence while mastering modern tools like POS system proficiency.
+      Dice Hospitality totally understands the unique challenges of F&B industry. From daily transactions to detailed financial reporting, our services encourage restaurant owners with accurate insights, enabling them to optimize profitability and make strong business decisions.
     </p>
   </div>
 
@@ -52,14 +52,12 @@ export default function ConDev() {
           {/* Text first on mobile, right on desktop */}
           <div className="order-1 md:order-2">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
-              Why SOPs are Essential for Restaurants
+              Why Choose DICE Hospitality?
             </h2>
             <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
-              Every successful dining business is backed by well-structured Restaurant Standard Operating Procedures. SOPs outline the restaurant staff responsibilities, lead the team members through food preparation SOPs, comply with health & safety in restaurants, and ensure accuracy and consistency in both kitchen and service operations.
+              Choosing Dice for your accounts and cost control management helps your restaurant save precious time, minimize calculation errors and stay compliant with UAE financial regulations. We have hands-on experience of managing 100+ projects of restaurants and cafes in Dubai, our team of qualified accountants with F&B expertise deliver cost effective and customized services while providing transparent reporting which empower restaurant business owners to make strong financial decisions.
               <br />
               <br />
-              With a strong restaurant operations manual, managers are able to monitor performance, enforce quality control in restaurants, and use a restaurant audit checklist for assessing compliance.
-              
             </p>
           </div>
 
@@ -81,6 +79,18 @@ export default function ConDev() {
             ))}
           </div>
         </div>
+        <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+          <strong> Key advantages of partnering with us include:</strong>
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li><strong>Expert handling of restaurant financial operations:</strong> Our team covers all aspects of accounting, from daily transactions to detailed financial reporting while ensuring restaurants finances are accurate and trustable.</li>
+
+         <li><strong>Cost-effective and tailored accounting solutions:</strong> At Dice, we craft accounting solutions that suit the specific business requirements of our clients in Dubai, assisting you in maximizing resources and reducing wasteful spending.</li>
+
+         <li><strong>Clear visibility of expenses and revenue:</strong> With detailed financial reports and information, you have a complete picture of how your restaurant is performing and can make wiser decisions to increase profitability.</li>
+
+         <li><strong>Support for strategic growth and profitability:</strong> We provide financial guidance and analysis to help you plan expansions, control costs, and increase profit margins sustainably.</li>
+       </ul>
+        </p>
       </div>
 
       {/* ================= Process Section ================= */}
@@ -88,107 +98,25 @@ export default function ConDev() {
         {/* Text first */}
         <div className="max-w-2xl order-1">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 sm:mb-6">
-            SOP Template & Staff Training
+            Core Accounting & Financial Management
           </h2>
           <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-            We develop SOP templates customized to your restaurant concept — from fine dining to cafés. These SOPs cover:
-            <ul className="list-disc pl-5 space-y-2 mt-2">
-         <li>Food safety SOPs – covering food safety training, proper food handling, and restaurant compliance. </li>
-
-         <li>Kitchen SOPs – food preparation, cooking methods, plating standards, and cleaning routines. </li>
-
-         <li>Restaurant hygiene SOPs & Cleaning SOPs – ensuring cleanliness in back and front of house SOPs. </li>
-
-         <li>Customer service SOPs – improving hospitality standards through customer service training and soft skills training for restaurant staff. </li>
-
-         <li>Inventory management SOPs – systematic stock control, purchasing guidelines, and waste reduction. </li>
+            Accurate bookkeeping is the foundation of strong financial management. At DICE Hospitality, we record every transaction with precision to maintain transparency and compliance.
         
+          </p>
+            <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+          <strong>Our core services include:</strong>
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li>Posting all <strong>sales and purchases</strong></li>
+
+         <li>Recording <strong>cash and bank transactions</strong></li>
+
+         <li>Managing the <strong>general ledger and inter-company accounts</strong></li>
+
+         <li>Maintaining <strong>fixed assets</strong></li>
+
+         <li>Preparing <strong>financial statements</strong> (Profit & Loss, Balance Sheet, Cash Flow)</li>
        </ul>
-       These SOPs for restaurants form the backbone of staff training programs and ongoing performance management.
-       </p>
-        </div>
-
-        {/* Two images */}
-        <div className="order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {[
-            { src: "/images/proc1.png", alt: "Process image 1" },
-            { src: "/images/proc2.png", alt: "Process image 2" },
-          ].map((img, i) => (
-            <div key={i} className="relative aspect-[3/4] overflow-hidden rounded">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-       {/* ================= Cuisine Section (texture bg) ================= */}
-      <div
-        className="w-full py-10 sm:py-12 md:py-16"
-        style={{
-          backgroundImage: "url(/images/texture-bg.png)",
-          backgroundRepeat: "repeat",
-          backgroundSize: "auto",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
-          {/* Text first on mobile, right on desktop */}
-          <div className="order-1 md:order-2">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
-              Restaurant Staff Training UAE – Building Skilled & Motivated Teams
-            </h2>
-            <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
-             At Dice, we specialize in restaurant staff training in the UAE, helping restaurants in Dubai and across the Emirates build skilled, motivated, and efficient teams. We train all phases of workforce development, from restaurant onboarding in the UAE for effective assimilation of new recruits, to restaurant customer service training based on guest interaction, upselling skills, and all-around customer experience. We offer food safety training in the UAE, making teams familiar with hygiene protocols, HACCP rules, and everything related to health & safety in restaurants. For managers and supervisors, our restaurant team management UAE programs are aimed at leadership development, while staff productivity training helps improve efficiency, speed, and consistency in everyday operations. 
-              <br />
-              <br />
-              We also offer restaurant technology training, including POS system proficiency, online ordering, and digital reporting tools, ensuring staff are aligned with modern operations. Complementing these, our hospitality training UAE refines professionalism and service excellence, while our effective staff training methods and mentorship programs work to reduce staff turnover in restaurants and keep employees motivated for long-term success.
-              <br />
-              <br />
-            </p>
-          </div>
-
-          {/* Two images */}
-          <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              { src: "/images/dev1.png", alt: "Cuisine dish 1" },
-              { src: "/images/dev2.png", alt: "Cuisine dish 2" },
-            ].map((img, i) => (
-              <div key={i} className="relative aspect-[4/5] overflow-hidden rounded">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* ================= Process Section ================= */}
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 sm:py-10 md:py-14 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
-        {/* Text first */}
-        <div className="max-w-2xl order-1">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 sm:mb-6">
-            Restaurant Training Techniques & Programs
-          </h2>
-      
-        <p className="text-slate-900 text-base sm:text-[17px] leading-7 md:leading-8 mt-4">
-        Our restaurant training programs UAE are designed to elevate both individual skills and team collaboration. We focus on:
-        <ul className="list-disc pl-5 space-y-2 mt-2">
-        <li>Staff training services that align with brand values. </li>
-        <li>Upselling techniques for restaurant staff to increase revenue. </li>
-        <li>Employee motivation in restaurants through recognition and growth opportunities. </li>
-        <li>Restaurant workforce training Dubai to standardize performance across all branches. </li>
-        <li>Staff training & recruitment strategies that build long-term talent pipelines. </li> 
-       </ul>
-       By integrating restaurant training techniques with best practices for restaurants, we help owners achieve operational consistency and service excellence.
         </p>
         </div>
 
@@ -223,12 +151,112 @@ export default function ConDev() {
           {/* Text first on mobile, right on desktop */}
           <div className="order-1 md:order-2">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
-              Mastering Restaurant SOPs for Long-Term Success
+              Accounts Payable & Receivable
             </h2>
             <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
-              When your team undergoes restaurant SOP training in UAE, operations become seamless and highly efficient. By implementing a robust restaurant checklist for every department, managers can easily track progress, ensure compliance, and maintain quality control in restaurants. This structured approach improves overall efficiency in daily restaurant operations in Dubai and across the UAE, guarantees consistent food and service standards, and drives higher customer satisfaction. At the same time, it ensures compliance with UAE restaurant regulations while supporting restaurant staff retention in UAE through confidence building, accountability, and a culture of service excellence.
-            
+                 <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+          Managing supplier payments and customer collections is crucial for healthy cash flow and operational stability. We provide:
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li>Detailed <strong>AP/AR reports and aging analysis</strong></li>
+
+         <li><strong>Corporate customer billing</strong></li>
+
+         <li>Supplier and customer <strong>reconciliations</strong></li>
+
+       </ul>
+       These services ensure your restaurant operates efficiently with full financial transparency.
+        </p>
             </p>
+          </div>
+
+          {/* Two images */}
+          <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              { src: "/images/dev1.png", alt: "Cuisine dish 1" },
+              { src: "/images/dev2.png", alt: "Cuisine dish 2" },
+            ].map((img, i) => (
+              <div key={i} className="relative aspect-[4/5] overflow-hidden rounded">
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ================= Process Section ================= */}
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 sm:py-10 md:py-14 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
+        {/* Text first */}
+        <div className="max-w-2xl order-1">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-4 sm:mb-6">
+            Reconciliation Services
+          </h2>
+       <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+          Daily, accurate reconciliations prevent financial discrepancies and protect profitability. Our reconciliation services include:
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li><strong>Bank account reconciliations</strong></li>
+
+         <li><strong>Daily sales and deposit verification</strong></li>
+
+         <li><strong>Credit card statement reconciliation</strong></li>
+        
+        <li><strong>POS vs online channel reconciliation</strong>(Deliveroo, Zomato, Talabat, etc.)</li>
+
+         <li><strong>VAT reconciliation</strong></li>
+       </ul>
+        </p> 
+        </div>
+
+        {/* Two images */}
+        <div className="order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {[
+            { src: "/images/proc1.png", alt: "Process image 1" },
+            { src: "/images/proc2.png", alt: "Process image 2" },
+          ].map((img, i) => (
+            <div key={i} className="relative aspect-[3/4] overflow-hidden rounded">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+       {/* ================= Cuisine Section (texture bg) ================= */}
+      <div
+        className="w-full py-10 sm:py-12 md:py-16"
+        style={{
+          backgroundImage: "url(/images/texture-bg.png)",
+          backgroundRepeat: "repeat",
+          backgroundSize: "auto",
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
+          {/* Text first on mobile, right on desktop */}
+          <div className="order-1 md:order-2">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
+              Managed Payroll & Compliance
+            </h2>
+             <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+         Efficient payroll management ensures smooth HR operations and compliance with UAE labor laws. Our services include:
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li><strong>Master file maintenance</strong></li>
+
+         <li><strong>Monthly payroll processing</strong></li>
+
+         <li><strong>Leave pay and end-of-service benefits calculation</strong></li>
+        
+       </ul>
+       We also manage VAT accounting and regulatory compliance, including return preparation, filing, refund submissions, and advisory support, keeping your business fully compliant.
+        </p> 
           </div>
 
           {/* Two images */}
@@ -259,14 +287,22 @@ export default function ConDev() {
      
             <div className="order-1">
        <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
-         Partner with Experts in SOP Implementation & Staff Training
+         Cost Control & Financial Analysis
        </h2>
-       <p className="text-slate-900 text-base sm:text-[17px] leading-7 md:leading-8 mt-4">
-       At Dice, we don’t just create beautiful dining spaces — we help you operate them successfully. From Restaurant Standard Operating Procedures to Restaurant Staff Training to Improve Efficiency, our tailored programs empower your workforce and strengthen your business foundation.
-       <br />
-       <br />
-       If you’re ready to transform your operations with Standard Operating Procedures for restaurants, book a consultation with us today.
-        </p>
+                 <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+         Optimizing profits requires effective cost control and actionable insights. We provide:
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li><strong>Break-even analysis reports</strong></li>
+
+         <li><strong>Food and beverage cost tracking</strong></li>
+
+         <li><strong>Profitability analysis by outlet or channel</strong></li>
+
+         <li><strong>Financial presentations to management</strong></li>
+        
+       </ul>
+      We monitor key metrics such as food cost %, prime costs, overhead rates, COGS, and gross profit to help restaurants reduce waste and maximize margins.
+        </p> 
      </div>
      
      
@@ -287,13 +323,62 @@ export default function ConDev() {
                    </div>
                  ))}
                </div>
-        
-     
              </div>
-            
-                  
-             
            </div>
+
+             {/* ================= Cuisine Section (texture bg) ================= */}
+      <div
+        className="w-full py-10 sm:py-12 md:py-16"
+        style={{
+          backgroundImage: "url(/images/texture-bg.png)",
+          backgroundRepeat: "repeat",
+          backgroundSize: "auto",
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 items-start md:items-center">
+          {/* Text first on mobile, right on desktop */}
+          <div className="order-1 md:order-2">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif mb-3 sm:mb-4">
+              Additional Services
+            </h2>
+             <p className="text-slate-900 text-base sm:text-[17px] px-4 sm:px-8 leading-7 md:leading-8 mt-4">
+         To support growth and strategic planning, we offer:
+       <ul className="list-disc pl-5 space-y-2 mt-2">
+         <li>External audit support for audit-ready statements</li>
+
+         <li>Budgeting and forecasting for expansions or new outlets</li>
+
+         <li><strong>Financial advisory and CFO services to guide business decisions and ROI analysis</strong></li>
+        
+       </ul>
+       At DICE Hospitality, we are your reliable company for restaurant accounting and cost control in Dubai. No matter if you want to improve profitability or streamline costs, our skilled team is always ready to support you.
+       <br />
+       <br />
+       Contact us and Visit Us today to know how we optimize accounting operations and help restaurants in Dubai to achieve financial success
+        </p> 
+          </div>
+
+          {/* Two images */}
+          <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              { src: "/images/dev1.png", alt: "Cuisine dish 1" },
+              { src: "/images/dev2.png", alt: "Cuisine dish 2" },
+            ].map((img, i) => (
+              <div key={i} className="relative aspect-[4/5] overflow-hidden rounded">
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+           
 
 
     </section>

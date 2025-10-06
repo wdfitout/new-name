@@ -9,25 +9,25 @@ const cardData = [
     title: "OPERATION MANAGEMENT",
     img: "/images/opertaion-mgmt.png",
     desc: "Luxury villa interior design in Dubai tailored to your lifestyle by experts at WE DO interior design and fitout.",
-    link: "/villa-interior-design-dubai",
+    link: "/operation-management",
   },
   {
     title: "HR MANAGEMENT",
     img: "/images/hr-mgmt.png",
     desc: "Smart, elegant, and space-optimized apartment interior design and fit-out crafted for modern Dubai living.",
-    link: "/apartment-interior-design-dubai",
+    link: "/hr-management",
   },
   {
     title: "ACCOUNTS & COST CONTROL",
     img: "/images/accounts.png",
     desc: "Premier landscape company in Dubai offering bespoke landscape design in Dubai for villas, gardens, and outdoor spaces.",
-    link: "/landscape-design-dubai",
+    link: "/accounts-cost-control",
   },
   {
     title: "IT SUPPORT",
     img: "/images/it.png",
     desc: "Customized restaurant interior design services in Dubai, crafting unique dining atmospheres. Experts in restaurants & café interior design.",
-    link: "/restaurant-interior-design",
+    link: "/it-support",
   },
 ];
 
