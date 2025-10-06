@@ -119,7 +119,7 @@ export default function AboutSection() {
             >
               <h4 className="text-xl font-bold mb-2">Our Mission</h4>
               <p className="text-sm">
-                Our mission is to empower businesses with impact-driven and sustainable growth through digital marketing solutions, strategic collaborations, and cutting-edge technology.
+                Our mission is to create unforgettable dining experiences through exceptional food, genuine hospitality, and a passion for excellence. We strive to bring people together, turning every meal into a moment worth remembering.
               </p>
             </motion.div>
           </div>
