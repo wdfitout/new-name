@@ -52,11 +52,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        Finding the right partner to boost your brand's digital presence can be
-        daunting. That's where Buzz Digital Agency comes in. As a top-tier B2B
-        Digital Marketing Agency, we specialize in creating tailored marketing
-        strategies that connect businesses with their ideal clients while
-        delivering measurable results.
+        Finding the perfect place to enjoy exceptional food and a welcoming atmosphere can be a challenge — that’s where Dice Hospitality stands out. We combine culinary artistry with warm hospitality to create unforgettable moments for our guests. Every dish is thoughtfully prepared, every detail carefully considered, ensuring an experience that delights from start to finish.
       </motion.p>
     </section>
   );
