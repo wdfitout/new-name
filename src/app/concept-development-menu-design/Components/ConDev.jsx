@@ -39,7 +39,7 @@ export default function ConDev() {
   {/* Single image in original size */}
   <div className="order-2 flex justify-center md:justify-end">
     <Image
-      src="/images/con2.png"
+      src="/images/cd-1.png"
       alt="Concept image"
       width={500}   // set your actual width
       height={700}  // set your actual height

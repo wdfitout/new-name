@@ -41,7 +41,7 @@ market research for restaurants to your business idea.
   {/* Single image in original size */}
   <div className="order-2 flex justify-center md:justify-end">
     <Image
-      src="/images/con2.png"
+      src="/images/ff-1.png"
       alt="Concept image"
       width={500}   // set your actual width
       height={700}  // set your actual height
@@ -96,8 +96,8 @@ optimizing ROI, and enticing investors with certainty.
           {/* Two images */}
           <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              { src: "/images/dev1.png", alt: "Cuisine dish 1" },
-              { src: "/images/dev2.png", alt: "Cuisine dish 2" },
+              { src: "/images/ff-6.png", alt: "Cuisine dish 1" },
+              { src: "/images/ff-3.png", alt: "Cuisine dish 2" },
             ].map((img, i) => (
               <div key={i} className="relative aspect-[4/5] overflow-hidden rounded">
                 <Image
@@ -151,8 +151,8 @@ optimizing ROI, and enticing investors with certainty.
         {/* Two images */}
         <div className="order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {[
-            { src: "/images/proc1.png", alt: "Process image 1" },
-            { src: "/images/proc2.png", alt: "Process image 2" },
+            { src: "/images/ff-4.png", alt: "Process image 1" },
+            { src: "/images/ff-5.png", alt: "Process image 2" },
           ].map((img, i) => (
             <div key={i} className="relative aspect-[3/4] overflow-hidden rounded">
               <Image
