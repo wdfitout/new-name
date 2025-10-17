@@ -94,10 +94,10 @@ export default function ConDev() {
             F&B Staffing Services Tailored to Dubai’s Hospitality Sector
           </h2>
           <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-            In the dynamic city of Dubai, fi nding the right staff members is so challenging, especially in the busy areas such as Dubai Marina, Business Bay and Jumeirah Village Circle. Our F&B staffing services in Dubai ensure that hotels, cafes, restaurants and catering businesses always avail the services of baristas,skilled chefs, waiters, kitchen staff,managers and supervisors.
+            In the dynamic city of Dubai, finding the right staff members is so challenging, especially in the busy areas such as Dubai Marina, Business Bay and Jumeirah Village Circle. Our F&B staffing services in Dubai ensure that hotels, cafes, restaurants and catering businesses always avail the services of baristas,skilled chefs, waiters, kitchen staff,managers and supervisors.
             <br />
             <br />
-           Dice Hospitality specialize in hiring staff for fi ne-dining restaurants in Palm Jumeirah,boutique cafés in Al Safa, casual dining spots in Karama and luxury hospitality venues in DIFC and
+           Dice Hospitality specialize in hiring staff for fine-dining restaurants in Palm Jumeirah,boutique cafés in Al Safa, casual dining spots in Karama and luxury hospitality venues in DIFC and
           Downtown Dubai. No matter if you need permanent hires or temporary staff for events, our restaurant consultancy company in Dubai ensures seamless operations.
             <br />
             <br />
@@ -175,7 +175,7 @@ export default function ConDev() {
             Food & Beverage Concept Development in Dubai
           </h2>
           <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-            Every premium restaurant or café starts with a strong base and concept. From luxury fi ne dining experience near Atlantis The Royal to trendy cafés in Al Quoz and family-friendly eateries in Mirdif City Centre, the food and beverage concept development in Dubai by Dice Hospitality helps business owners to build unique and profi table brands.
+            Every premium restaurant or café starts with a strong base and concept. From luxury fine dining experience near Atlantis The Royal to trendy cafés in Al Quoz and family-friendly eateries in Mirdif City Centre, the food and beverage concept development in Dubai by Dice Hospitality helps business owners to build unique and profitable brands.
             <br />
             <br />
             Our experts design F&B concepts by our team is customized according to Dubai market, while ensuring that they connect with locals and tourists alike in areas such as La Mer Beach, Jumeirah Park, and Dubai Creek Harbour.
@@ -218,10 +218,10 @@ export default function ConDev() {
               Hospitality Training & SOP Development in Dubai
             </h2>
             <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
-              Hiring staff is only the fi rst step—training them to deliver exceptional guest experiences is what sets successful restaurants apart. We provide F&B training services in Dubai, covering customer service, hygiene, food safety, and brand-specifi c service standards.
+              Hiring staff is only the first step—training them to deliver exceptional guest experiences is what sets successful restaurants apart. We provide F&B training services in Dubai, covering customer service, hygiene, food safety, and brand-specific service standards.
               <br />
               <br />
-              For restaurants in Burj Khalifa community, Sur La Mer, and Green Community, we create customized SOPs and staff training programs that enhance consistency and service quality. From fi ne dining in Emirates Hills to casual eateries in Al Barsha, our training ensures every guest leaves satisfied.
+              For restaurants in Burj Khalifa community, Sur La Mer, and Green Community, we create customized SOPs and staff training programs that enhance consistency and service quality. From fine dining in Emirates Hills to casual eateries in Al Barsha, our training ensures every guest leaves satisfied.
               <br />
               <br />
             </p>

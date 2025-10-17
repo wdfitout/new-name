@@ -134,7 +134,7 @@ optimizing ROI, and enticing investors with certainty.
         <li><strong> Restaurant accounting in Dubai UAE –</strong> Structured accounting solutions that align
             with local compliance standards.</li>
         
-        <li><strong>PInvestor reports Dubai –</strong> Professional documents that present your concept’s
+        <li><strong>Professional Investor reports Dubai –</strong> Professional documents that present your concept’s
             financial viability to stakeholders and investors.</li>
         
         <li><strong>Market strategy –</strong> A practical roadmap to position your brand competitively in

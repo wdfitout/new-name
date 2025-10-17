@@ -14,7 +14,7 @@ const navItems = [
       { title: "Concept Development", path: "/concept-development-menu-design" },
       { title: "Financial Feasibility", path: "/financial-feasibility-investment-analysis" },
       { title: "Location Assessment", path: "/location-assessment" },
-      { title: "Interior Design", path: "/interior-design" },
+      { title: "Interior Design", path: "/restaurant-interior-design" },
       { title: "Kitchen Design & Tender", path: "/kitchen-design-tender" },
       { title: "Menu Engineering", path: "/menu-engineering" },
       { title: "HR Support", path: "/hr-support" },

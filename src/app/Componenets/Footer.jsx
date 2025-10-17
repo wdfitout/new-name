@@ -17,7 +17,7 @@ export default function Footer() {
               <FaEnvelope className="text-[#7D090F]" /> info@dicehospitality.ae
             </li>
             <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-[#7D090F]" /> +971 55 522 8866
+              <FaPhoneAlt className="text-[#7D090F]" /> +971 55 599 8866
             </li>
             <li className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-[#7D090F]" /> OFFICE - WH-05 A, JABEL ALI INDUSTRIAL 1, DUBAI, UAE
@@ -58,9 +58,7 @@ export default function Footer() {
             <li>B2B</li>
             <li>Retailers</li>
             <li>Restaurant</li>
-            <li>Healthcare</li>
-            <li>Real Estate</li>
-            <li>Construction</li>
+            <li>Interior Design & Fit Out</li>
             <li>Technology</li>
           </ul>
         </div>

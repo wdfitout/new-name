@@ -18,7 +18,7 @@ export default function ConDev() {
   <div className="max-w-2xl order-1">
     
     <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 mb-6">
-    At WE Dice, we don’t just design restaurants — we help operators set up efficient systems that keep everything running smoothly. Through SOP implementation – Restaurant Staff Training, we create a complete Restaurant Operations Manual with SOPs, checklists, and training procedures that improve efficiency, compliance, and customer satisfaction.
+    At Dice, we don’t just design restaurants — we help operators set up efficient systems that keep everything running smoothly. Through SOP implementation – Restaurant Staff Training, we create a complete Restaurant Operations Manual with SOPs, checklists, and training procedures that improve efficiency, compliance, and customer satisfaction.
       <br />
       <br />
       Our goal is to ensure your team understands daily restaurant operations, food safety, hygiene, and service excellence while mastering modern tools like POS system proficiency.

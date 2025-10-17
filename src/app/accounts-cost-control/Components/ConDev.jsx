@@ -55,7 +55,7 @@ export default function ConDev() {
               Why Choose DICE Hospitality?
             </h2>
             <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8">
-              Choosing Dice for your accounts and cost control management helps your restaurant save precious time, minimize calculation errors and stay compliant with UAE financial regulations. We have hands-on experience of managing 100+ projects of restaurants and cafes in Dubai, our team of qualified accountants with F&B expertise deliver cost effective and customized services while providing transparent reporting which empower restaurant business owners to make strong financial decisions.
+              Choosing Dice for your accounts and cost control management helps your restaurant save precious time, minimize calculation errors and stay compliant with UAE financial regulations. We have hands-on experience of managing 100+ projects of restaurants, cafes, lounges and clubs, our team of qualified accountants with F&B expertise deliver cost effective and customized services while providing transparent reporting which empower restaurant business owners to make strong financial decisions.
               <br />
               <br />
             </p>
