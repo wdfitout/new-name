@@ -17,17 +17,12 @@ const VPBody = () => {
         {/* Text Column */}
         <div className="w-full lg:w-1/2 space-y-4 text-sm sm:text-lg leading-6 text-black font-play">
           <p>
-          We turn data driven insights into successful commercial strategies for airports, retail, hospitality and mixed-use assets.
+          Dice Hospitality is a forward-thinking business conglomerate committed to excellence, innovation, and transformative experiences in the consultancy and hospitality sectors. With a deep-rooted passion for strategic growth and premium service, we empower businesses and create extraordinary experiences that leave a lasting impact.
           </p>
           <p>
-          Our insights and strategies help investors, asset managers, and occupiers to enhance customer experience and commercial performance.
+          At Dice Hospitality, we go beyond conventional business practices—we craft tailored solutions, elevate brands, and redefine industry standards. Whether through strategic consultancy that drives business success or hospitality ventures that captivate and inspire, our commitment to quality, creativity, and excellence remains unwavering.
           </p>
-          <p>
-          We combine global experience with local understanding, with knowledge gained from working on projects in over 50 countries around the world.
-          </p>
-           <p>
-          We combine global experience with local understanding, with knowledge gained from working on projects in over 50 countries around the world.
-          </p>
+       
           
         </div>
 
