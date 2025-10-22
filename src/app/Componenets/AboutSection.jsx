@@ -8,10 +8,9 @@ import { useInView } from "react-intersection-observer";
 
 export default function AboutSection() {
   const metrics = [
-    { label: "Revenue Generated", end: 10, suffix: "M+" },
-    { label: "Avg ROI on Paid Campaigns", end: 3, suffix: "x" },
-    { label: "Qualified Leads Sourced", end: 120, suffix: "K+" },
-    { label: "Traffic Growth in 6 Months", end: 100, suffix: "%" },
+    { label: "EXPERIENCE", end: 25, suffix: "YEARS" },
+    { label: "NO OF PROJECTS", end: 120, suffix: "+" },
+    { label: "ROI PER YEAR", end: 25, suffix: "%" },
   ];
 
   return (
@@ -126,7 +125,7 @@ export default function AboutSection() {
         </div>
 
         {/* Metrics Section */}
-        <div className="rounded-xl grid grid-cols-2 sm:grid-cols-4 text-center bg-[#00000070] text-white p-6">
+        <div className="rounded-xl grid grid-cols-2 sm:grid-cols-3 text-center bg-[#00000070] text-white p-6">
           {metrics.map((item, index) => {
             const { ref, inView } = useInView({
               triggerOnce: true,

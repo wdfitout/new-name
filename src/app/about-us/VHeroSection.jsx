@@ -11,7 +11,7 @@ className="relative w-full h-[300px] sm:h-[300px] md:h-[3500px] lg:h-[400px] xl:
   {/* Background Image */}
   <div className="absolute inset-0 z-0">
     <Image
-      src="/images/reception.jpg"
+      src="/images/about-us-hero.jpg"
       alt="interior design"
       fill
       priority
