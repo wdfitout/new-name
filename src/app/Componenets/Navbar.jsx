@@ -25,9 +25,10 @@ const navItems = [
   {
     title: "Post - Opening Operations Management",
     subItems: [
-      { title: "Operations Management", path: "/" },
-      { title: "HR Management", path: "/" },
-      { title: "Accounts & Cost Control", path: "/" },
+      { title: "Operations Management", path: "/operation-management" },
+      { title: "HR Management", path: "/hr-management" },
+      { title: "Accounts & Cost Control", path: "/accounts-cost-control" },
+      { title: "IT Support", path: "/it-support" },
     ],
   },
   { title: "Our Clients", path: "/" },

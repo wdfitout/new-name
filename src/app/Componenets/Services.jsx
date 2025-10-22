@@ -11,7 +11,7 @@ export default function Services() {
       title: "Concept Development & Menu Design",
       slug: "concept-development-menu-design",
       description:
-        "Market researches and feasibility plans for your F&B business.",
+        "Transform your restaurant's concept and menu into a culinary masterpiece with our expert development and design services.",
       bgImage: "/images/concep-dev.png",
       alt: "Books symbolizing research forward",
     },
@@ -19,7 +19,7 @@ export default function Services() {
       title: "Financial Feasibility & Investment Analysis",
       slug: "financial-feasibility-investment-analysis",
       description:
-        "Creative and functional interior designs for hospitality projects.",
+        "Unlock smart investment opportunities with our meticulous financial feasibility and investment analysis services, designed to mitigate risk and optimize returns.",
       bgImage: "/images/financial.png",
       alt: "Interior design example",
     },
@@ -27,7 +27,7 @@ export default function Services() {
       title: "Location Assessment",
       slug: "location-assessment",
       description:
-        "Strategic menu engineering that improves sales mix and profitability.",
+        "Make informed decisions about your next location with our comprehensive assessment services, evaluating demographics, market trends, and site potential.",
       bgImage: "/images/location.png",
       alt: "Menu design image",
     },
@@ -35,7 +35,7 @@ export default function Services() {
       title: "Interior Design",
       slug: "restaurant-interior-design",
       description:
-        "Market researches and feasibility plans for your F&B business.",
+        "Bring your vision to life with our creative interior design services, expertly blending aesthetics and functionality to create spaces that inspire and delight.",
       bgImage: "/images/interior-design.png",
       alt: "Books symbolizing research forward",
     },
@@ -43,7 +43,7 @@ export default function Services() {
       title: "Kitchen Design & Tender",
       slug: "kitchen-design-tender",
       description:
-        "Creative and functional interior designs for hospitality projects.",
+        "Maximize your kitchen's potential with our comprehensive design and tender services, expertly crafting spaces that enhance productivity, safety, and culinary creativity.",
       bgImage: "/images/kitchen.png",
       alt: "Interior design example",
     },
@@ -51,7 +51,7 @@ export default function Services() {
       title: "Menu Engineering",
       slug: "menu-engineering",
       description:
-        "Strategic menu engineering that improves sales mix and profitability.",
+        "Unlock menu magic with our expert menu engineering services, optimizing profitability and delighting customers with every bite.",
       bgImage: "/images/menu.png",
       alt: "Menu design image",
     },
@@ -59,7 +59,7 @@ export default function Services() {
       title: "HR Support",
       slug: "hr-support",
       description:
-        "Market researches and feasibility plans for your F&B business.",
+        "Expert HR support for a productive and compliant workplace.",
       bgImage: "/images/hr.png",
       alt: "Books symbolizing research forward",
     },
@@ -67,7 +67,7 @@ export default function Services() {
       title: "OS & E Advice",
       slug: "os-e-advice",
       description:
-        "Creative and functional interior designs for hospitality projects.",
+        "Optimize your operations with expert OS&E advice, streamlining efficiency and productivity.",
       bgImage: "/images/ose.png",
       alt: "Interior design example",
     },
@@ -75,7 +75,7 @@ export default function Services() {
       title: "SOP’S & Staff Training",
       slug: "sops-staff-training",
       description:
-        "Strategic menu engineering that improves sales mix and profitability.",
+        "Train to perfection with customized SOPs and staff training solutions that drive consistency and excellence.",
       bgImage: "/images/sops.png",
       alt: "Menu design image",
     },
