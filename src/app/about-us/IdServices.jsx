@@ -7,14 +7,14 @@ import Link from "next/link";
 const cardData = [
   {
     title: "Consumer insights",
-    img: "/images/B (37).jpg",
+    img: "/images/consumer-insights.png",
     alt: "Luxury villa interior design in Dubai",
     desc: "We deliver powerful consumer analysis across a range of global markets. Blending insights from socio-demographics, catchment analysis, geolocation data, customer segmentation, and primary research, we shape commercial strategies around a deep understanding of consumer motivations, mindsets, and needs.",
     link: "/villa-interior-design-dubai",
   },
   {
     title: "Market trends & opportunity",
-    img: "/images/B (9).jpg",
+    img: "/images/market-trends.png",
     alt: "Modern commercial space interior for urban offices",
     desc: [
       "We develop expert insight into the implications of key trends.",
@@ -24,7 +24,7 @@ const cardData = [
   },
   {
     title: "Occupier performance modelling",
-    img: "/images/B (41).jpg",
+    img: "/images/occupier-performance.png",
     alt: "Restaurant fit-out showcasing elegant dining ambiance",
     desc: [
       "We analyse occupier performance to inform future trading potential.",
@@ -93,7 +93,7 @@ const IdServices = () => {
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
-                  src="/images/B (43).jpg"
+                  src="/images/strategic.png"
                   alt="Strategic design thinking process"
                   fill
                   className="object-cover"
@@ -110,7 +110,7 @@ const IdServices = () => {
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
-                  src="/images/B (44).jpg"
+                  src="/images/commercial-space-planning.png"
                   alt="Collaborative project delivery team working"
                   fill
                   className="object-cover"
@@ -129,7 +129,7 @@ const IdServices = () => {
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
-                  src="/images/B (43).jpg"
+                  src="/images/target-mix-brands.png"
                   alt="Strategic design thinking process"
                   fill
                   className="object-cover"
@@ -146,7 +146,7 @@ const IdServices = () => {
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
-                  src="/images/B (44).jpg"
+                  src="/images/revnue-potential.png"
                   alt="Collaborative project delivery team working"
                   fill
                   className="object-cover"
@@ -177,7 +177,7 @@ const IdServices = () => {
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
-                  src="/images/B (45).jpg"
+                  src="/images/business-outcomes.png"
                   alt="Completed interior showcasing brand success"
                   fill
                   className="object-cover"
@@ -196,7 +196,7 @@ const IdServices = () => {
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
-                  src="/images/B (46).jpg"
+                  src="/images/emotional-value.png"
                   alt="Happy team collaborating in well-designed space"
                   fill
                   className="object-cover"

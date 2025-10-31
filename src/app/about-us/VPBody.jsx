@@ -30,7 +30,7 @@ const VPBody = () => {
         <div className="w-full lg:w-1/2">
           <div className="relative w-full h-[300px] lg:h-full min-h-[300px] rounded-lg overflow-hidden">
             <Image
-              src="/images/B (8).jpg"
+              src="/images/leading-experts.png"
               alt="Interior design project"
               fill
               className="object-cover"
