@@ -1,6 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGoogle, FaTiktok, FaYoutube } from "react-icons/fa6";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  FaGoogle,
+  FaTiktok,
+  FaYoutube,
+} from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -8,9 +17,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-8 text-sm">
         {/* Company Info */}
         <div className="md:col-span-2 space-y-4">
-          <Image src="/images/logo-1.png" alt="Buzz Digital Logo" width={150} height={40} />
+          <Image
+            src="/images/logo-1.png"
+            alt="Buzz Digital Logo"
+            width={150}
+            height={40}
+          />
           <p className="text-gray-400">
-            Transforming Ideas into Dining Excellence at Dice Hospitality. Elevate your Dining space with our luxury solutions and high end luxury services.
+            Transforming Ideas into Dining Excellence at Dice Hospitality. Elevate
+            your Dining space with our luxury solutions and high end luxury services.
           </p>
           <ul className="space-y-1">
             <li className="flex items-center gap-2">
@@ -20,7 +35,8 @@ export default function Footer() {
               <FaPhoneAlt className="text-[#7D090F]" /> +971 55 599 8866
             </li>
             <li className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-[#7D090F]" /> OFFICE - WH-05 A, JABEL ALI INDUSTRIAL 1, DUBAI, UAE
+              <FaMapMarkerAlt className="text-[#7D090F]" /> OFFICE - WH-05 A, JABEL ALI
+              INDUSTRIAL 1, DUBAI, UAE
             </li>
           </ul>
           <div className="flex gap-3 text-white text-lg pt-2">
@@ -38,17 +54,55 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Services</h4>
           <ul className="text-gray-400 space-y-2">
-      <li>concept-development</li>
-      <li>financial-feeasibility</li>
-      <li>location-assessment</li>
-      <li>interior-design</li>
-      <li>kitchen-design-tender</li>
-      <li>fit-out-tender</li>
-      <li>hr-support</li>
-      <li>ose-advice</li>
-      <li>staff-training</li>
-      <li>marketing</li>
-       </ul>
+            <li>
+              <Link href="/concept-development-menu-design" className="hover:text-white">
+                concept-development
+              </Link>
+            </li>
+            <li>
+              <Link href="/financial-feasibility-investment-analysis" className="hover:text-white">
+                financial-feeasibility
+              </Link>
+            </li>
+            <li>
+              <Link href="/location-assessment" className="hover:text-white">
+                location-assessment
+              </Link>
+            </li>
+            <li>
+              <Link href="/restaurant-interior-design" className="hover:text-white">
+                interior-design
+              </Link>
+            </li>
+            <li>
+              <Link href="/kitchen-design-tender" className="hover:text-white">
+                kitchen-design-tender
+              </Link>
+            </li>
+            <li>
+              <Link href="/menu-engineering" className="hover:text-white">
+                fit-out-tender
+              </Link>
+            </li>
+            <li>
+              <Link href="/hr-support" className="hover:text-white">
+                hr-support
+              </Link>
+            </li>
+            <li>
+              <Link href="/os-e-advice" className="hover:text-white">
+                ose-advice
+              </Link>
+            </li>
+            <li>
+              <Link href="/sops-staff-training" className="hover:text-white">
+                staff-training
+              </Link>
+            </li>
+            <li>
+              
+            </li>
+          </ul>
         </div>
 
         {/* Industries */}

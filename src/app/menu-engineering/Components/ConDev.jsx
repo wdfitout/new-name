@@ -30,7 +30,7 @@ export default function ConDev() {
   {/* Single image in original size */}
   <div className="order-2 flex justify-center md:justify-end">
     <Image
-      src="/images/me-1.png"
+      src="/images/mmee-2.png"
       alt="Concept image"
       width={500}   // set your actual width
       height={700}  // set your actual height
@@ -70,23 +70,20 @@ export default function ConDev() {
             </p>
           </div>
 
-          {/* Two images */}
-          <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              { src: "/images/me-2.png", alt: "Cuisine dish 1" },
-              { src: "/images/me-3.png", alt: "Cuisine dish 2" },
-            ].map((img, i) => (
-              <div key={i} className="relative aspect-[4/5] overflow-hidden rounded">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
-                />
-              </div>
-            ))}
-          </div>
+          
+          {/* One image (same settings, no changes) */}
+        <div className="order-2 md:order-1 grid grid-cols-1 gap-4">
+          <div className="relative aspect-[4/5] overflow-hidden rounded">
+          <Image
+          src="/images/mmee-1.png"
+          alt="Cuisine dish 1"
+          fill
+          className="object-cover"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+    />
+  </div>
+</div>
+
         </div>
 
             <p className="text-slate-700 text-base sm:text-[17px] leading-7 md:leading-8 px-4 md:px-8 items-center">
@@ -108,23 +105,20 @@ export default function ConDev() {
           </p>
         </div>
 
-        {/* Two images */}
-        <div className="order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {[
-            { src: "/images/me-4.png", alt: "Process image 1" },
-            { src: "/images/me-5.png", alt: "Process image 2" },
-          ].map((img, i) => (
-            <div key={i} className="relative aspect-[3/4] overflow-hidden rounded">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
-              />
-            </div>
-          ))}
-        </div>
+        
+       {/* One image (landscape format, same styling) */}
+<div className="order-2 md:order-1 grid grid-cols-1 gap-4">
+  <div className="relative aspect-[16/9] overflow-hidden rounded">
+    <Image
+      src="/images/mme-2.png"
+      alt="Cuisine dish 1"
+      fill
+      className="object-cover"
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+    />
+  </div>
+</div>
+
       </div>
 
       {/* ================= Cuisine Section (texture bg) ================= */}
@@ -151,22 +145,19 @@ export default function ConDev() {
           </div>
 
           {/* Two images */}
-          <div className="order-2 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              { src: "/images/me-6.png", alt: "Cuisine dish 1" },
-              { src: "/images/me-7.png", alt: "Cuisine dish 2" },
-            ].map((img, i) => (
-              <div key={i} className="relative aspect-[4/5] overflow-hidden rounded">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
-                />
-              </div>
-            ))}
-          </div>
+        {/* One image (landscape format, same styling) */}
+<div className="order-2 md:order-1 grid grid-cols-1 gap-4">
+  <div className="relative aspect-[16/9] overflow-hidden rounded">
+    <Image
+      src="/images/mmee-4.png"
+      alt="Cuisine dish 1"
+      fill
+      className="object-cover"
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+    />
+  </div>
+</div>
+
         </div>
       </div>
 
@@ -187,22 +178,19 @@ export default function ConDev() {
         </div>
 
         {/* Two images */}
-        <div className="order-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {[
-            { src: "/images/me-8.png", alt: "Process image 1" },
-            { src: "/images/me-9.png", alt: "Process image 2" },
-          ].map((img, i) => (
-            <div key={i} className="relative aspect-[3/4] overflow-hidden rounded">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
-              />
-            </div>
-          ))}
-        </div>
+    {/* One image (landscape format, same styling) */}
+<div className="order-2 md:order-1 grid grid-cols-1 gap-4">
+  <div className="relative aspect-[16/9] overflow-hidden rounded">
+    <Image
+      src="/images/mmee-3.png"
+      alt="Cuisine dish 1"
+      fill
+      className="object-cover"
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"
+    />
+  </div>
+</div>
+
       </div>
     </section>
   );

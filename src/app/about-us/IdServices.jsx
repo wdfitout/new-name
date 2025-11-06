@@ -4,35 +4,68 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+const ENABLE_CARD_LINKS = false; // set to true when you want to enable links
+
 const cardData = [
   {
-    title: "Consumer insights",
-    img: "/images/consumer-insights.png",
-    alt: "Luxury villa interior design in Dubai",
-    desc: "We deliver powerful consumer analysis across a range of global markets. Blending insights from socio-demographics, catchment analysis, geolocation data, customer segmentation, and primary research, we shape commercial strategies around a deep understanding of consumer motivations, mindsets, and needs.",
+    title: "CONCEPT DEVELOPMENT",
+    img: "/images/ab-1.png",
+    alt: "concept development",
+    desc: "We work with you to understand what your concept needs to do for you and then collaborate to create the business of your dreams while ensuring that it delivers your expectation.",
     link: "/villa-interior-design-dubai",
   },
   {
-    title: "Market trends & opportunity",
-    img: "/images/market-trends.png",
+    title: "LANDLORD / PROPERTY DEVELOPERS",
+    img: "/images/ab-2.png",
     alt: "Modern commercial space interior for urban offices",
     desc: [
-      "We develop expert insight into the implications of key trends.",
-      "With experience across multiple sectors and geographies, we track global development benchmarks and commercial metrics for diverse asset types to identify market opportunity.",
+      "We assist landlords by screening potential tenants, assessing current ones, and offering expert consulting to boost restaurant operations and profits.",
     ],
     link: "/apartment-interior-design-dubai",
   },
   {
-    title: "Occupier performance modelling",
-    img: "/images/occupier-performance.png",
+    title: "MENU DEVELOPMENT",
+    img: "/images/ab-3.png",
     alt: "Restaurant fit-out showcasing elegant dining ambiance",
     desc: [
-      "We analyse occupier performance to inform future trading potential.",
-      "Our understanding of occupier business models, performance drivers, risk and opportunity, enables us to develop a detailed understanding of trading potential and space demands.",
+      "No matter how strong your design or location is, success comes from offering food and drinks your guests love—and want to pay for.",
+    ],
+    link: "/landscape-design-dubai",
+  },
+  {
+    title: "RESCUE & REPOSITIONING",
+    img: "/images/ab-4.png",
+    alt: "Modern commercial space interior for urban offices",
+    desc: [
+      "Whether it’s a small tweak like switching fryers or a full brand overhaul, we’ll fix it and get your restaurant back on track to profit fast.",
+    ],
+    link: "/apartment-interior-design-dubai",
+  },
+  {
+    title: "MANAGEMENT AGREEMENTS",
+    img: "/images/ab-5.png",
+    alt: "Restaurant fit-out showcasing elegant dining ambiance",
+    desc: [
+      "Partnering with Dice Hospitality means shared goals: profitability, growth, and long-term success. We only succeed when you do—our earnings depend on yours.",
     ],
     link: "/landscape-design-dubai",
   },
 ];
+
+function CardWrapper({ href, children, k }) {
+  if (ENABLE_CARD_LINKS && href) {
+    return (
+      <Link href={href} key={k} className="block">
+        {children}
+      </Link>
+    );
+  }
+  return (
+    <div key={k} className="block">
+      {children}
+    </div>
+  );
+}
 
 const IdServices = () => {
   return (
@@ -40,14 +73,12 @@ const IdServices = () => {
       {/* WHAT WE DO */}
       <section className="bg-[#F5F5F7] text-black py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-4">
-            WHAT WE DO
-          </h2>
+          <h2 className="mb-4">WHAT WE DO</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {cardData.map((card, index) => (
-              <Link href={card.link} key={index}>
-                <div className="group cursor-pointer text-left transition-all duration-300 hover:opacity-90">
+              <CardWrapper href={card.link} k={index}>
+                <div className="group cursor-default md:cursor-pointer text-left transition-all duration-300 hover:opacity-90">
                   <div className="overflow-hidden rounded mb-4">
                     <Image
                       src={card.img}
@@ -75,7 +106,7 @@ const IdServices = () => {
                     </p>
                   )}
                 </div>
-              </Link>
+              </CardWrapper>
             ))}
           </div>
         </div>
@@ -103,7 +134,9 @@ const IdServices = () => {
                 Strategic Positioning
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Develop a clear vision for new or converted assets, ensuring the right strategy is in place to create high-performing propositions that respond and adapt to change.
+                Develop a clear vision for new or converted assets, ensuring the
+                right strategy is in place to create high-performing propositions
+                that respond and adapt to change.
               </p>
             </div>
 
@@ -120,12 +153,14 @@ const IdServices = () => {
                 Commercial Space Planning
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Determine the optimal quantity and composition of commercial space across different formats and categories, the suitability of commercial offers, and the commercial potential of design plans.
+                Determine the optimal quantity and composition of commercial space
+                across different formats and categories, the suitability of
+                commercial offers, and the commercial potential of design plans.
               </p>
             </div>
           </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
             <div>
               <div className="relative w-full h-[280px] sm:h-[320px] md:h-[380px] lg:h-[400px] rounded overflow-hidden mb-6">
                 <Image
@@ -139,7 +174,9 @@ const IdServices = () => {
                 Target Mix & Brands
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-              Identify the optimum tenant, concession, or brand mix of an asset, so valuable and sustainable occupiers are attracted that generate greater revenue and engagement from consumers.
+                Identify the optimum tenant, concession, or brand mix of an
+                asset, so valuable and sustainable occupiers are attracted that
+                generate greater revenue and engagement from consumers.
               </p>
             </div>
 
@@ -156,13 +193,13 @@ const IdServices = () => {
                 Revenue Potential
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-              Develop high-performing business models, which fulfil trading potential, maximise market opportunity, and deliver sustainable performance for investors, operators, asset managers, and customers.
+                Develop high-performing business models, which fulfil trading
+                potential, maximise market opportunity, and deliver sustainable
+                performance for investors, operators, asset managers, and
+                customers.
               </p>
             </div>
           </div>
-
-
-
         </div>
       </section>
 
@@ -187,9 +224,9 @@ const IdServices = () => {
                 Measurable Business Outcomes
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                We design for performance — spaces that drive customer
-                retention, improve team productivity, and increase revenue
-                potential through strategic spatial planning and branding.
+                We design for performance — spaces that drive customer retention,
+                improve team productivity, and increase revenue potential through
+                strategic spatial planning and branding.
               </p>
             </div>
 
@@ -206,9 +243,9 @@ const IdServices = () => {
                 Emotional & Experiential Value
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Our designs create spaces where people feel inspired, welcome,
-                and connected. We blend aesthetics with functionality to enhance
-                the emotional experience of every user.
+                Our designs create spaces where people feel inspired, welcome, and
+                connected. We blend aesthetics with functionality to enhance the
+                emotional experience of every user.
               </p>
             </div>
           </div>
