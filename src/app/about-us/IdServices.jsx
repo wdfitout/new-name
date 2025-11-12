@@ -115,9 +115,9 @@ const IdServices = () => {
       {/* HOW WE DO IT */}
       <section className="bg-white text-black py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p>OUR OUTPUTS</p>
+          <p>WHO WE SERVE</p>
           <h2 className="text-xl sm:text-2xl tracking-widest font-conthrax text-start mb-14">
-            Our output helps our clients to deliver stronger asset performance
+            Our Services help our clients to deliver stronger asset performance
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -131,12 +131,10 @@ const IdServices = () => {
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-3">
-                Strategic Positioning
+                Investors
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Develop a clear vision for new or converted assets, ensuring the
-                right strategy is in place to create high-performing propositions
-                that respond and adapt to change.
+                Unleash the full potential of your hospitality business with Dice Hospitality. Using proven strategies developed by the best restaurants in the industry, we help you avoid costly mistakes and seize every opportunity for growth. Our expert team identifies operational challenges and provides practical solutions, elevating every detail without compromising quality. Discover how efficient operations, strategic planning, and meticulous attention to detail can translate into increased profits, higher customer satisfaction, and exceptional returns on your investment. At Dice Hospitality, your success is our specialty. Let us take your business to new heights.
               </p>
             </div>
 
@@ -150,12 +148,10 @@ const IdServices = () => {
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-3">
-                Commercial Space Planning
+                Food Service & Hospitality
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Determine the optimal quantity and composition of commercial space
-                across different formats and categories, the suitability of
-                commercial offers, and the commercial potential of design plans.
+                In today's rapidly evolving food and hospitality sector, sustainable success is built on adaptability, creative thinking, and a deep understanding of guest needs. Dice Hospitality partners with restaurants, hotels, and food service providers to help them navigate industry challenges by providing strategic insights and practical solutions that deliver tangible results.
               </p>
             </div>
           </div>
@@ -171,12 +167,13 @@ const IdServices = () => {
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-3">
-                Target Mix & Brands
+                Independent Operators
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Identify the optimum tenant, concession, or brand mix of an
-                asset, so valuable and sustainable occupiers are attracted that
-                generate greater revenue and engagement from consumers.
+                At Dice Hospitality, we know that operating independently can present unique challenges. That’s why our expert team is always available to answer your questions and tackle any issues you face. 
+                <br/>
+                <br/>
+                Drawing from years of hands-on experience in the restaurant industry, we deliver high standards in management, actionable marketing strategies, and proven turnaround solutions. Our mission is to help independent operators resolve real-world problems, grow their restaurant business, and achieve lasting success—with dedicated support every step of the way.
               </p>
             </div>
 
@@ -190,13 +187,10 @@ const IdServices = () => {
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-3">
-                Revenue Potential
+                Multi-Unit Operations
               </h3>
               <p className="text-base font-play leading-relaxed text-gray-700">
-                Develop high-performing business models, which fulfil trading
-                potential, maximise market opportunity, and deliver sustainable
-                performance for investors, operators, asset managers, and
-                customers.
+                A major challenge for multi-unit restaurant operators is ensuring consistent profitability across all locations. This issue often goes unaddressed until owners analyze whether their operational structure is truly optimized. At Dice Hospitality, our role is to assess key operational areas and implement actionable solutions designed to drive profitability for each restaurant in your group.
               </p>
             </div>
           </div>
