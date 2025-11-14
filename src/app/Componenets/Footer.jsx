@@ -18,8 +18,8 @@ export default function Footer() {
         {/* Company Info */}
         <div className="md:col-span-2 space-y-4">
           <Image
-            src="/images/logo-1.png"
-            alt="Buzz Digital Logo"
+            src="/images/dice-logo-white.png"
+            alt="Dice Logo"
             width={150}
             height={40}
           />
@@ -138,7 +138,7 @@ export default function Footer() {
           <a href="#" className="hover:underline">Privacy Policy</a>
         </div>
         <div className="mt-4 md:mt-0">
-          <Image src="/images/logo-1.png" alt="Trust Badge" width={100} height={40} />
+          <Image src="/images/dice-logo-white.png" alt="Trust Badge" width={100} height={40} />
         </div>
       </div>
     </footer>

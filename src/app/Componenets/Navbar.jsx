@@ -9,7 +9,7 @@ const navItems = [
   { title: "About Us", path: "/about-us" },
   {
     title: "Services",
-  path: "#services",
+    path: "#services",
     subItems: [
       { title: "Concept Development", path: "/concept-development-menu-design" },
       { title: "Financial Feasibility", path: "/financial-feasibility-investment-analysis" },
@@ -32,40 +32,26 @@ const navItems = [
     ],
   },
   { title: "Our Clients", path: "/" },
-  
   { title: "Contact Us", path: "/contact-us" },
 ];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
-  const [scrolledPastHero, setScrolledPastHero] = useState(false);
 
   const toggleDropdown = (title) => {
     setActiveDropdown(activeDropdown === title ? null : title);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const heroHeight = document.getElementById("hero-section")?.offsetHeight || 500;
-      setScrolledPastHero(window.scrollY > heroHeight);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 shadow-md transition-colors duration-300 ${
-        scrolledPastHero ? "bg-white text-black" : "text-white"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 shadow-md transition-colors duration-300 bg-black/60 text-white`}
     >
       <div className="container mx-auto px-6 py-0 flex items-center justify-between mt-8">
         {/* Logo */}
         <Link href="/" className="flex items-center pl-4">
           <Image
-            src={scrolledPastHero ? "/images/logo-2.png" : "/images/logo-1.png"}
+            src="/images/dice-logo-white.png"
             alt="Logo"
             width={100}
             height={100}
@@ -74,19 +60,21 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav Links */}
-        <div className="hidden lg:flex space-x-10 items-center pl-40 pr-0">
+        <div className="hidden lg:flex space-x-10 items-center pl-40 pr-0 text-white">
           {navItems.map((item, index) =>
             item.subItems ? (
               <div key={index} className="relative group">
                 <button className="flex items-center gap-1 hover:text-red-400">
                   {item.title} <FaChevronDown className="text-xs mt-0.5" />
                 </button>
-                <div className="absolute left-0 top-full mt-2 bg-white text-black rounded shadow-lg w-44 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition duration-300 z-50">
+
+                {/* Dropdown */}
+                <div className="absolute left-0 top-full mt-2 bg-black/80 text-white rounded shadow-lg w-52 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition duration-300 z-50">
                   {item.subItems.map((sub, subIndex) => (
                     <Link
                       key={subIndex}
                       href={sub.path}
-                      className="block px-4 py-2 hover:bg-gray-100"
+                      className="block px-4 py-2 hover:bg-black/60"
                     >
                       {sub.title}
                     </Link>
@@ -109,9 +97,9 @@ export default function Navbar() {
         <div className="lg:hidden pr-20">
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? (
-              <FaTimes className="text-2xl text-black" />
+              <FaTimes className="text-2xl text-white" />
             ) : (
-              <FaBars className="text-2xl" />
+              <FaBars className="text-2xl text-white" />
             )}
           </button>
         </div>
@@ -119,7 +107,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="lg:hidden bg-white text-black px-6 pt-6 pb-6 space-y-4 rounded-b-lg">
+        <div className="lg:hidden bg-black/80 text-white px-6 pt-6 pb-6 space-y-4 rounded-b-lg">
           {navItems.map((item, index) => (
             <div key={index}>
               {item.subItems ? (
@@ -130,6 +118,7 @@ export default function Navbar() {
                   >
                     {item.title} <FaChevronDown className="text-xs" />
                   </button>
+
                   {activeDropdown === item.title && (
                     <div className="ml-4 mt-2 space-y-1">
                       {item.subItems.map((sub, subIndex) => (
@@ -154,6 +143,8 @@ export default function Navbar() {
               )}
             </div>
           ))}
+
+          {/* CTA Button */}
           <Link
             href="/get-started"
             className="inline-block bg-[#7D090F] text-white px-5 py-2 rounded-full font-semibold tracking-wide transition hover:opacity-90"
