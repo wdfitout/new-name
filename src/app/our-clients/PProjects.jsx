@@ -4,24 +4,7 @@ import React from "react";
 import Image from "next/image";
 
 const projects = [
-  {
-    img: "/images/code8.avif",
-    alt: "Code Eight Lounge Interior",
-    title: "CODE EIGHT LOUNGE",
-    type: "RESTAURANT & LOUNGE",
-    location: "Mercure Hotel, SZR, Dubai",
-    year: "2022",
-    scope: "FULL CONCEPT CREATION",
-  },
-  {
-    img: "/images/nurai.avif",
-    alt: "Nurai Cafe Interior",
-    title: "NURAI CAFE",
-    type: "RESTAURANT & CAFE",
-    location: "Dubai",
-    year: "2022",
-    scope: "FULL CONCEPT CREATION",
-  },
+ 
   // 👉 keep adding type/location/year/scope for other items as you want
   {
     img: "/images/baytw.webp",
