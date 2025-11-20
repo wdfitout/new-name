@@ -25,7 +25,7 @@ const projects = [
     scope: "INTERIOR DESIGN & FIT-OUT", 
   },
 
-  { img: "/images/nurai.avif", 
+  { img: "/images/nurai.webp", 
     alt: "Apartment Interior Design", 
     title: "NURAI CAFE",
     type: "RESTAURANT & LOUNGE",
