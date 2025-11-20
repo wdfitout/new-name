@@ -31,7 +31,7 @@ const navItems = [
       { title: "IT Support", path: "/it-support" },
     ],
   },
-  { title: "Our Clients", path: "/" },
+  { title: "Our Clients", path: "/our-clients" },
   { title: "Contact Us", path: "/contact-us" },
 ];
 
