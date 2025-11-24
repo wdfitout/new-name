@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
 
 const navItems = [
@@ -39,13 +39,49 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
 
+  // NEW: scroll-based visibility
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollY = useRef(0);
+
   const toggleDropdown = (title) => {
     setActiveDropdown(activeDropdown === title ? null : title);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      // Always show at very top
+      if (currentScrollY <= 0) {
+        setIsVisible(true);
+      } else {
+        // If scrolling down and mobile menu is NOT open → hide
+        if (currentScrollY > lastScrollY.current && !menuOpen) {
+          setIsVisible(false);
+        }
+        // If scrolling up → show
+        else if (currentScrollY < lastScrollY.current) {
+          setIsVisible(true);
+        }
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [menuOpen]);
+
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 shadow-md transition-colors duration-300 bg-black/60 text-white`}
+      className={`
+        fixed top-0 left-0 w-full z-50 shadow-md
+        bg-black/60 text-white
+        transition-colors duration-300
+        transform transition-transform duration-300
+        ${isVisible || menuOpen ? "translate-y-0" : "-translate-y-full"}
+      `}
     >
       <div className="container mx-auto px-6 py-0 flex items-center justify-between mt-8">
         {/* Logo */}

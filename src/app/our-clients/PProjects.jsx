@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
  
@@ -12,7 +13,8 @@ const projects = [
      type: "RESTAURANT",
     location: "Financial District, Toronto, Downtown, Oakville,Canada",
     year: "2023",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",  
   }, 
   
 { img: "/images/code8.avif", 
@@ -21,7 +23,8 @@ const projects = [
     type: "RESTAURANT & LOUNGE",
     location: "Mercure Hotel, SZR, Dubai",
     year: "2022",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   },
 
   { img: "/images/nurai.webp", 
@@ -30,7 +33,8 @@ const projects = [
     type: "RESTAURANT & CAFE",
     location: "Business Bay, Motor City",
     year: "2021",
-    scope: "CONCEPT DEVELOPMENT", 
+    scope: "CONCEPT DEVELOPMENT",
+    href: "/business-bay-restaurant",   
   }, 
 
  {
@@ -41,6 +45,7 @@ const projects = [
     location: "Sheikh Mohamed Boulevard, Dubai,",
     year: "2021",
     scope: "CONCEPT DEVELOPMENT",
+    href: "/business-bay-restaurant",   
   },
 
   
@@ -50,7 +55,8 @@ const projects = [
     type: "RESTAURANT & CAFE",
     location: "street Food Business Bay, Dubai",
     year: "2020",
-    scope: "FULL CONCEPT CREATION & CONCEPT DEVELOPMENT", 
+    scope: "FULL CONCEPT CREATION & CONCEPT DEVELOPMENT",
+    href: "/business-bay-restaurant",   
   },
 
   { img: "/images/midhat.avif", 
@@ -60,6 +66,7 @@ const projects = [
     location: "Business Bay, Dubai",
     year: "2020",
     scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
 
@@ -69,7 +76,8 @@ const projects = [
     type: "LEBANESE RESTAURANT BAR & CIGAR LOUNGE",
     location: "JBR, Dubai",
     year: "2020",
-    scope: "FULL CONCEPT CREATION & CONCEPT DEVELOPMENT", 
+    scope: "FULL CONCEPT CREATION & CONCEPT DEVELOPMENT",
+    href: "/business-bay-restaurant",   
   },
     
 
@@ -79,7 +87,8 @@ const projects = [
     type: "RESTAURANT",
     location: "Media City, Dubai",
     year: "2019",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/samoon.jpg", 
@@ -88,7 +97,8 @@ const projects = [
     type: "FAST FOOD",
     location: "Media City, Dubai",
     year: "2019",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/estikana.jpeg", 
@@ -97,7 +107,8 @@ const projects = [
     type: "CAFE",
     location: "Business Bay,Dubai",
     year: "2018",
-    scope: "F&B CONSULTANCY", 
+    scope: "F&B CONSULTANCY",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/above.avif", 
@@ -106,7 +117,8 @@ const projects = [
     type: "NIGHT CLUB",
     location: "DuSofitel DT, Dubai",
     year: "2018",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
    { img: "/images/gal.avif", 
@@ -115,7 +127,8 @@ const projects = [
     type: "RESTAURANT & LOUNGE",
     location: "Dubai Marine Resort, Dubai",
     year: "2018",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
 
@@ -125,7 +138,8 @@ const projects = [
     type: "RESTAURANT & LOUNGE",
     location: "Bluewaters Island,Dubai",
     year: "2018",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/karamna.avif", 
@@ -134,7 +148,8 @@ const projects = [
     type: "RESTAURANT",
     location: "Downtown, Dubai",
     year: "2018",
-    scope: "CONCEPT UPGRADED", 
+    scope: "CONCEPT UPGRADED",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/sahelnom.avif", 
@@ -143,7 +158,8 @@ const projects = [
     type: "CAFE & RESTAURANT",
     location: "Dubai",
     year: "2018",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/pit.avif", 
@@ -152,7 +168,8 @@ const projects = [
     type: "RESTAURANT",
     location: "Jumeirah, Dubai",
     year: "2018",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/lua.avif", 
@@ -162,7 +179,8 @@ const projects = [
     location: "Sofitel Hotel, The Palm HOTEL,Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-   }, 
+    href: "/business-bay-restaurant",    
+  }, 
 
     { img: "/images/traffic.avif", 
     alt: "Apartment Interior Design", 
@@ -170,7 +188,8 @@ const projects = [
     type: "NIGHTCLUB",
     location: "Dubai Marine Resort,Dubai",
     year: "2016",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   },
 
  { img: "/images/times-of-arabia.avif", 
@@ -179,7 +198,8 @@ const projects = [
     type: "RESTAURANT",
     location: "Souk Mafinat Jumeirah, Dubai",
     year: "2014",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   },
 
     { img: "/images/cash.avif", 
@@ -188,7 +208,8 @@ const projects = [
     type: "NIGHTCLUB",
     location: "Movenpick Ibn Battuta,Dubai",
     year: "2013",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",    
   }, 
 
   { img: "/images/montegorlo.avif", 
@@ -198,6 +219,7 @@ const projects = [
     location: "Marina Walk, Dubai",
     year: "2013",
     scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   },
 
   { img: "/images/ward.webp", 
@@ -206,7 +228,8 @@ const projects = [
     type: "CAFE & RESTAURANT",
     location: "Marina, Dubai",
     year: "2013",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/OWN-Restaurant-2.avif", 
@@ -215,7 +238,8 @@ const projects = [
      type: "CAFE & RESTAURANT",
     location: "JLT, Dubai",
     year: "2013",
-    scope: "F&B CONSULTANCY", 
+    scope: "F&B CONSULTANCY",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/balcony.avif",
@@ -224,7 +248,8 @@ const projects = [
     type: "BAR & RESTAURANT",
     location: "Airport Road, Damascus",
     year: "2011",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
 
   { img: "/images/elegante.avif", 
@@ -233,10 +258,9 @@ const projects = [
     type: "NIGHTCLUB",
     location: "Royal Ascot Hotel, Dubai",
     year: "2007",
-    scope: "FULL CONCEPT CREATION", 
+    scope: "FULL CONCEPT CREATION",
+    href: "/business-bay-restaurant",   
   }, 
-
-  
 
   { img: "/images/times.avif", 
     alt: "Apartment Interior Design", 
@@ -245,7 +269,8 @@ const projects = [
     location: "Media City, Dubai",
     year: "2003",
     scope: "FULL CONCEPT CREATION",
-   },
+    href: "/business-bay-restaurant",    
+  },
   // ...
 ];
 
@@ -256,6 +281,7 @@ const PProjects = () => {
       className="bg-[url('/images/p-bg.webp')] bg-cover bg-center bg-no-repeat text-white mt-20 md:mt-10"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-16">
+
         {/* Section Title */}
         <div className="relative mb-6 sm:mb-12 mt-6 sm:mt-12">
           <h2 className="text-lg sm:text-xl text-black font-bold tracking-wider text-center">
@@ -266,9 +292,10 @@ const PProjects = () => {
         {/* Project Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((card, index) => (
-            <div
+            <Link
               key={index}
-              className="relative aspect-[4/5] overflow-hidden group cursor-default w-full"
+              href={card.href || "#"}
+              className="relative aspect-[4/5] overflow-hidden group cursor-pointer w-full block"
             >
               {/* Background image */}
               <Image
@@ -282,7 +309,7 @@ const PProjects = () => {
               {/* Dark overlay */}
               <div className="absolute inset-0 bg-black/60 group-hover:bg-black/40 transition-colors duration-500" />
 
-              {/* Centered text block */}
+              {/* Center content */}
               <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6">
                 <h3 className="text-xl sm:text-2xl font-semibold tracking-[0.2em] mb-4">
                   {card.title}
@@ -312,9 +339,10 @@ const PProjects = () => {
                   </p>
                 )}
               </div>
-            </div>
+            </Link>
           ))}
         </div>
+
       </div>
     </section>
   );
