@@ -8,9 +8,8 @@ const VPBody = () => {
       {/* PAGE TITLE */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 pt-10 sm:pt-16 lg:pt-24 pb-10">
         <h1 className="text-3xl sm:text-4xl mt-20 sm:mt-10 lg:text-5xl text-center text-[#0a4a63]">
-          Business Bay Restaurant
+          LAYLAK RESTAURANT DOWNTOWN
         </h1>
-        <h2 className="text-2xl sm:text-3xl mt-10">Laylik Beirut Restaurant</h2>
       </div>
 
       {/* CONCEPT SECTION */}
@@ -19,57 +18,40 @@ const VPBody = () => {
           {/* Text */}
           <div>
             <h2 className="text-2xl sm:text-3xl text-[#0a4a63] mb-4 sm:mb-6">
-              Concept
+             Concept Development
             </h2>
             <p className="leading-relaxed text-sm sm:text-base mb-4">
-              The core concept of Laylak is rooted in Lebanese heritage but elevated with a modern touch, offering a blend of authentic warmth and sophisticated dining. It was founded with a passion for sharing exceptional food and creating a family-like atmosphere where guests can enjoy meaningful meals. 
-              
-            </p>
-            <p className="leading-relaxed text-sm sm:text-base mb-4">
-              The name "Laylak" itself means lilac flower, symbolizing elegance, calm, and beauty. The restaurant aims to transport diners, offering a taste of Beirut in the heart of Dubai, and is designed to bring people together in a vibrant yet elegant space.
-            </p>
+              Laylak Restaurant Downtown was developed by Dice Hospitality’s advanced <b className="text-[#0a4a63]"><a href="https://dicehospitality.ae/concept-development-menu-design">Restaurant Concept Development and menu design services</a></b> by combining strategic storytelling, market analysis, and global brand positioning. As a leading Dubai-based hospitality agency and one of the top Restaurant Concept Development Consultants in Dubai, Dice crafted a concept that reflects innovative F&B concepts.
+              <br /><br /> Our expert restaurant concept consultants ensured a cohesive identity showcasing our strength in Restaurant Concept Creation, restaurant concept development Dubai, and shaping new brands for international success with the same precision used for UAE Top Food Brands.
+</p>
         
           </div>
 
-          {/* Images (3 in a row) */}
-          <div className="grid grid-cols-3 gap-3 sm:gap-4">
-            <div className="relative aspect-[3/4]">
+          {/* Image 1 */}
+          
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-4 sm:gap-6">
+            <div className="relative aspect-[4/3]">
               <Image
-                src="/images/laylik-4.webp"
-                alt="La Maison Ani interior 1"
+                src="/images/laylak-2.jpg"
+                alt="Dining space at La Maison Ani"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="relative aspect-[3/4]">
-              <Image
-                src="/images/laylik-5.webp"
-                alt="La Maison Ani interior 2"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative aspect-[3/4]">
-              <Image
-                src="/images/laylik-3.webp"
-                alt="Chef preparing food at La Maison Ani"
-                fill
-                className="object-cover"
-              />
-            </div>
+           
           </div>
         </div>
       </section>
 
       {/* CUISINE SECTION */}
-      <section className="w-full bg-[#e5eef1] bg-[radial-gradient(circle,_rgba(255,255,255,0.6)_1px,_transparent_1px)] bg-[size:32px_32px]">
+      <section className="w-full bg-[#f2d4e6ba] bg-[radial-gradient(circle,_rgba(255,255,255,0.6)_1px,_transparent_1px)] bg-[size:32px_32px]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-12 sm:py-16 lg:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] gap-10 lg:gap-16 items-center">
             {/* Images (2) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
               <div className="relative aspect-[4/5]">
                 <Image
-                  src="/images/laylik-2.webp"
+                  src="/images/laylak-8.jpg"
                   alt="French dish at La Maison Ani"
                   fill
                   className="object-cover"
@@ -77,7 +59,7 @@ const VPBody = () => {
               </div>
               <div className="relative aspect-[4/5]">
                 <Image
-                  src="/images/laylik-1.webp"
+                  src="/images/laylik-7.webp"
                   alt="Dessert at La Maison Ani"
                   fill
                   className="object-cover"
@@ -88,10 +70,10 @@ const VPBody = () => {
             {/* Text */}
             <div className="lg:pl-4">
               <h2 className="text-2xl sm:text-3xl text-[#0a4a63] mb-4 sm:mb-6 text-left">
-                Cuisine
+              Cuisine
               </h2>
               <p className="leading-relaxed text-sm sm:text-base">
-                Laylak's cuisine is a rich blend of traditional Lebanese and international dishes, reimagined with modern flair and artistic plating. The menu focuses on authentic, high-quality ingredients and features a wide selection of hot and cold mezzeh, grilled meats, and unique signature dishes. Popular menu items include Chicken Taouk, Kafta Arayes, and "Lara's Favorite," a crunchy chicken dish. The dishes often incorporate a balance of sweet and savory flavors, like halloumi cheese rolls served with watermelon, creating a unique and memorable dining experience.
+              The cuisine direction for Laylak Restaurant Downtown was shaped through Dice Hospitality’s specialised menu development and consultation services, delivering a food identity that aligns with both brand personality and market demand. As leaders in restaurant concept development and menu design services in Dubai, we crafted a signature menu through expert menu creation, supported by our skilled Restaurant Menu Designers in UAE. With a strong foundation in menu design services in Dubai and globally influenced culinary strategy, <b className="text-[#0a4a63]"><a href="https://dicehospitality.ae/">Dice Hospitality</a></b> ensured LAYLAK’s offering remains competitive, contemporary, and aligned with our reputation for premium Restaurant Menu Design Services by Dice.
               </p>
             </div>
           </div>
@@ -104,31 +86,31 @@ const VPBody = () => {
           {/* Text */}
           <div>
             <h2 className="text-2xl sm:text-3xl text-[#0a4a63] mb-4 sm:mb-6">
-              Design
+              Restaurant Interior Design 
+
             </h2>
             <p className="leading-relaxed text-sm sm:text-base">
-              The interior design of Laylak is characterized by modern elegance and thoughtful curation. The ambiance is warm and inviting, with a cozy atmosphere that is perfect for both casual dining and special occasions. Key design elements include a stunning canal or lakeside view in its Dubai location, comfortable seating like velvet banquettes, and intricate decorative touches that evoke a sense of refined taste. The design balances comfort with opulence, using splashes of the signature lilac hue in its decor to maintain brand identity and a visually appealing environment.
-            </p>
+           LAYLAK’s atmosphere was guided by Dice Hospitality’s refined approach to <b className="text-[#0a4a63]"><a href="https://dicehospitality.ae/restaurant-interior-design">Restaurant Interior Design Services in Dubai</a></b> , creating a visually cohesive and immersive dining environment. Our interior strategy reflects the standards of the best restaurant interior design companies in Dubai, supported by our capability as experienced Restaurant Interior Design & Fit Out Contractors in Dubai. Laylak Restaurant Downtown has a strong Restaurant Design & Branding, This project highlights our expertise in Restaurant Consultancy, Restaurant consultant Dubai, and Restaurants Consulting Services in UAE, showing how thoughtful interior direction elevates the overall dining experience. </p>
           </div>
 
-          {/* Images (2 wide) */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-            <div className="relative aspect-[4/3]">
+          {/* Images (2 in a row) */}
+          <div className="grid grid-cols-2 gap-3 sm:gap-4">
+            <div className="relative aspect-[3/4]">
               <Image
-                src="/images/laylik-6.webp"
-                alt="Dining space at La Maison Ani"
+                src="/images/laylak-1.jpg"
+                alt="La Maison Ani interior 1"
                 fill
                 className="object-cover"
               />
             </div>
-            <div className="relative aspect-[4/3]">
+            <div className="relative aspect-[3/4]">
               <Image
-                src="/images/laylik-7.webp"
-                alt="Restaurant interior at La Maison Ani"
+                src="/images/laylak-5.webp"
+                alt="La Maison Ani interior 2"
                 fill
                 className="object-cover"
               />
-            </div>
+           </div>
           </div>
         </div>
       </section>

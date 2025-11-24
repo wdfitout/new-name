@@ -7,14 +7,14 @@ import Link from "next/link";
 const projects = [
  
   // 👉 keep adding type/location/year/scope for other items as you want
- { img: "/images/lylak.avif", 
+ { img: "/images/laylak-1.jpg", 
     alt: "Apartment Interior Design", 
     title: "LAYLAK",
      type: "RESTAURANT",
     location: "Financial District, Toronto, Downtown, Oakville,Canada",
     year: "2023",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",  
+    href: "/laylak-restaurant-downtown",  
   }, 
   
 { img: "/images/code8.avif", 
