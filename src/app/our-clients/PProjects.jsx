@@ -24,7 +24,7 @@ const projects = [
     location: "Mercure Hotel, SZR, Dubai",
     year: "2022",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
 
   { img: "/images/nurai.webp", 
@@ -34,7 +34,7 @@ const projects = [
     location: "Business Bay, Motor City",
     year: "2021",
     scope: "CONCEPT DEVELOPMENT",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
  {
@@ -45,7 +45,7 @@ const projects = [
     location: "Sheikh Mohamed Boulevard, Dubai,",
     year: "2021",
     scope: "CONCEPT DEVELOPMENT",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
 
   
@@ -56,7 +56,7 @@ const projects = [
     location: "street Food Business Bay, Dubai",
     year: "2020",
     scope: "FULL CONCEPT CREATION & CONCEPT DEVELOPMENT",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
 
   { img: "/images/midhat.avif", 
@@ -66,7 +66,7 @@ const projects = [
     location: "Business Bay, Dubai",
     year: "2020",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
 
@@ -77,7 +77,7 @@ const projects = [
     location: "JBR, Dubai",
     year: "2020",
     scope: "FULL CONCEPT CREATION & CONCEPT DEVELOPMENT",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
     
 
@@ -88,7 +88,7 @@ const projects = [
     location: "Media City, Dubai",
     year: "2019",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/samoon.jpg", 
@@ -98,7 +98,7 @@ const projects = [
     location: "Media City, Dubai",
     year: "2019",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/estikana.jpeg", 
@@ -108,7 +108,7 @@ const projects = [
     location: "Business Bay,Dubai",
     year: "2018",
     scope: "F&B CONSULTANCY",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/above.avif", 
@@ -118,7 +118,7 @@ const projects = [
     location: "DuSofitel DT, Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
    { img: "/images/gal.avif", 
@@ -128,7 +128,7 @@ const projects = [
     location: "Dubai Marine Resort, Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
 
@@ -139,7 +139,7 @@ const projects = [
     location: "Bluewaters Island,Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/karamna.avif", 
@@ -149,7 +149,7 @@ const projects = [
     location: "Downtown, Dubai",
     year: "2018",
     scope: "CONCEPT UPGRADED",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/sahelnom.avif", 
@@ -159,7 +159,7 @@ const projects = [
     location: "Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/pit.avif", 
@@ -169,7 +169,7 @@ const projects = [
     location: "Jumeirah, Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/lua.avif", 
@@ -179,7 +179,7 @@ const projects = [
     location: "Sofitel Hotel, The Palm HOTEL,Dubai",
     year: "2018",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",    
+    href: "/laylak-restaurant-downtown",    
   }, 
 
     { img: "/images/traffic.avif", 
@@ -189,7 +189,7 @@ const projects = [
     location: "Dubai Marine Resort,Dubai",
     year: "2016",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
 
  { img: "/images/times-of-arabia.avif", 
@@ -199,7 +199,7 @@ const projects = [
     location: "Souk Mafinat Jumeirah, Dubai",
     year: "2014",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
 
     { img: "/images/cash.avif", 
@@ -209,7 +209,7 @@ const projects = [
     location: "Movenpick Ibn Battuta,Dubai",
     year: "2013",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",    
+    href: "/laylak-restaurant-downtown",    
   }, 
 
   { img: "/images/montegorlo.avif", 
@@ -219,7 +219,7 @@ const projects = [
     location: "Marina Walk, Dubai",
     year: "2013",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   },
 
   { img: "/images/ward.webp", 
@@ -229,7 +229,7 @@ const projects = [
     location: "Marina, Dubai",
     year: "2013",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/OWN-Restaurant-2.avif", 
@@ -239,7 +239,7 @@ const projects = [
     location: "JLT, Dubai",
     year: "2013",
     scope: "F&B CONSULTANCY",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/balcony.avif",
@@ -249,7 +249,7 @@ const projects = [
     location: "Airport Road, Damascus",
     year: "2011",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/elegante.avif", 
@@ -259,7 +259,7 @@ const projects = [
     location: "Royal Ascot Hotel, Dubai",
     year: "2007",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",   
+    href: "/laylak-restaurant-downtown",   
   }, 
 
   { img: "/images/times.avif", 
@@ -269,7 +269,7 @@ const projects = [
     location: "Media City, Dubai",
     year: "2003",
     scope: "FULL CONCEPT CREATION",
-    href: "/business-bay-restaurant",    
+    href: "/laylak-restaurant-downtown",    
   },
   // ...
 ];
