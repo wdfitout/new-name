@@ -24,7 +24,7 @@ const projects = [
     location: "Mercure Hotel, SZR, Dubai",
     year: "2022",
     scope: "FULL CONCEPT CREATION",
-    href: "/laylak-restaurant-downtown",   
+    href: "/mercure-hotel-restaurant",   
   },
 
   { img: "/images/nurai.webp", 
