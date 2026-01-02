@@ -34,7 +34,7 @@ const projects = [
     location: "Business Bay, Motor City",
     year: "2021",
     scope: "CONCEPT DEVELOPMENT",
-    href: "/laylak-restaurant-downtown",   
+    href: "/business-bay-restaurant",   
   }, 
 
  {
